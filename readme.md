@@ -1,75 +1,77 @@
-ABA MANUAL ( CONCEITO) GEO360 PRO 
-
 **Bem-vindo ao GEO360 PRO**
 
 Aqui você encontra informações de forma objetiva, com toda a organização e as ferramentas necessárias para otimizar seu trabalho. Esta é a versão GEO360 PRO, que oferece um visual mais moderno, novas funcionalidades e mais recursos para deixar seu trabalho ainda mais ágil e eficiente.
 
  🧠 **O que é ?**
  
-  O GEO360 PRO é um sistema de mapas online (SIG) que ajuda na gestão e no compartilhamento de informações geográficas. Ele permite coletar, armazenar, analisar e publicar dados espaciais, facilitando a tomada de decisões em áreas como gestão urbana e tributação. A plataforma se integra facilmente com outros sistemas, como QGIS, ArcGIS e bancos de dados geoespaciais, garantindo segurança, flexibilidade e alta disponibilidade na nuvem ou de forma local.
-
-Esse sistema permite coletar, armazenar, analisar e publicar dados geográficos para diferentes áreas da prefeitura, como tributos e gestão urbana. Cada município tem seu próprio ambiente no sistema, chamado de **TENANT**, onde ficam organizados todos os dados e mapas. A criação desse ambiente é feita pela equipe da Topocart. A partir disso, as informações, como limites do município, bairros, lotes e imagens de satélite, ficam disponíveis para uso na área de trabalho.
-
+  O GEO360 PRO é um sistema de mapas online (SIG) que ajuda na gestão e no compartilhamento de informações geográficas. Ele permite coletar, armazenar, analisar e publicar dados espaciais, facilitando a tomada de decisões em áreas como gestão urbana. A plataforma se integra facilmente com outros sistemas, como bancos de dados geoespaciais, garantindo segurança, flexibilidade e alta disponibilidade na nuvem ou de forma local.
+Esse sistema permite coletar, armazenar, analisar e publicar dados geográficos para diferentes áreas da prefeitura, como tributos e gestão urbana. Cada município tem seu próprio ambiente no sistema, chamado de TENANT, onde ficam organizados todos os dados e mapas. A criação desse ambiente é feita pela equipe da Topocart. A partir disso, as informações, como limites do município, bairros, lotes e imagens de satélite, ficam disponíveis para uso na área de trabalho.
 Cada área de trabalho reúne informações de um setor da administração pública. Ela é formada por camadas de dados, que podem ser específicas de um setor ou gerais, usadas por todos. O acesso é controlado por usuários, que possuem diferentes níveis de permissão conforme suas funções.
 
-✅ **O que é TENANT?**
 
-É o nome dado ao ambiente exclusivo de cada cliente dentro do sistema. É como se fosse uma conta separada, com seus próprios dados, mapas, usuários e configurações.
+✅ **Estrutura do TENANT** 
 
-Cada Tenant funciona de forma independente, sem misturar informações com outros clientes.
+No novo modelo, o Tenant é representado pela Organização. A seguir, estão os estão os detalhes da estrutura e funcionamento:
 
-📍 **Exemplo prático:**
+ **1.0 Criação da Organização**
+   
+**°** A organização é a unidade principal de isolamento e gerenciamento de dados;
 
-Se uma prefeitura usa o GEO360 PRO, ela terá um Tenant próprio, como:
+**°** Cada organização é criada com um e-mail principal, que será utilizado como responsável administrativo;
 
-👉 brasilia@geo360.com.br
+**°** Técnicos vinculados à empresa ou prefeitura são adicionados como membros da organização.
 
-Nesse ambiente, ficam todos os dados da cidade, como:
+**2.0 Estrutura Interna da Organização**
 
-° Mapas de bairros, ruas e lotes
+Após a criação, a organização segue uma hierarquia padronizada composta pelos seguintes elementos:
 
-° Dados de imóveis, meio ambiente, saúde, turismo, etc.
+**° Áreas de Trabalho (Workspaces)**: Divisões internas para segmentar equipes, departamentos ou projetos;
 
-° Usuários e equipes da prefeitura
+**° Mapas**: Conjuntos visuais configuráveis para análise e visualização de dados espaciais;
 
-Outras prefeituras terão seus próprios Tenants, como:
+**° Camadas (Layers)**: Elementos geográficos organizados, integrados ou importados ao sistema;
 
-goiania@geo360.com.br
+**° Formulários**: Estrutura de coleta e atualização de dados, vinculados às camadas.
 
-fortaleza@geo360.com.br
+**3.0 Visão do Usuário**
 
-**Cada uma com seu ambiente isolado.**
+**°** O usuário interage com o sistema sempre dentro do contexto de uma organização;
+
+**°** Todas as permissões, acessos e dados exibidos estão restritos ao escopo da organização atual;
+
+**°** A navegação e a colaboração são organizadas com base nas áreas de trabalho definidas.
+
+![tenant](https://github.com/user-attachments/assets/7ebef6c6-857a-4d0f-8562-91cd5edd8e56)
 
 
-
-
-Em resumo, o GEO360 PRO possui áreas de trabalho com ferramentas específicas para diferentes setores:
-
- 🏘️ **Cadastro Imobiliário:** integrado ao sistema tributário, permite troca de informações de forma automática, seja apenas para leitura ou também para edição.
-
- 📊 **Observatório do Mercado Imobiliário:** oferece mapas e análises com cálculos e modelos estatísticos para gerar a Planta de Valores Genéricos (PVG).
-
- 🏙️ **Plano Diretor:** permite cruzar mapas de zoneamento urbano e gerar relatórios com índices e regras urbanísticas.
-
- 🌐 **Cadastro Multifinalitário:** uma área de trabalho mais ampla, que usa dados básicos da cidade e permite adicionar informações de setores como Defesa Civil, Meio Ambiente, Turismo, Saúde, Educação, entre outros, sem depender de um modelo específico.
-
-💡 **Importante:** O GEO360 PRO é uma plataforma versátil, que atende tanto órgãos públicos quanto empresas privadas, se adaptando às necessidades de cada um.
-
-NOVA ABA ( PASSO A PASSO > MENU > PRIMEIROS PASSOS)
-
-**1.0** **🔐 Acesso ao GEO360 PRO**
+ 🌐 **Cadastro Multifinalitário**
+ 
+ **°** O Cadastro Multifinalitário é uma área de trabalho ampliada, que utiliza dados básicos da cidade;
+ 
+ **°** Permite a adição de informações de diversos setores — Defesa Civil, Meio Ambiente, Turismo, Saúde, Educação, entre outros;
+ 
+ **°** Sua estrutura é flexível e não depende de um modelo específico, o que permite atender múltiplos contextos de gestão municipal.
+ 
+ ![cadastro_multinalitario](https://github.com/user-attachments/assets/f4e2d250-3e3d-4431-883e-3fa4d3eb1c7a)
+**1.0 🔐 Acesso ao GEO360 PRO**
 
 Para acessar o ambiente do GEO360 PRO, siga os passos abaixo:
 
-Acesse o link de login: app.geo360pro.topocart.dev.br
+**°** Acesse o link de login: app.geo360pro.topocart.dev.br;
 
-Primeiro acesso? Clique em “Registre-se aqui” para criar sua conta.
+**°** Primeiro acesso? Clique em “Registre-se aqui” para criar sua conta;
 
-Já tem cadastro? Clique em “Entrar” e informe seus dados.
+**°** Já tem cadastro? Clique em “Entrar” e informe seus dados.
+
+![bem_vindo](https://github.com/user-attachments/assets/c99f1dfd-2aa7-4191-a314-48ed440956e7)
+
 
 📧 **Confirmação por e-mail**
 
-Após o registro, você receberá um e-mail no endereço informado para ativar sua conta. Somente após a ativação será possível acessar a organização criada por você ou para você.
+Após o registro, você receberá um e-mail no endereço informado para ativar sua conta. Somente após a ativação será possível acessar a organização.
+
+![confirmacao_email](https://github.com/user-attachments/assets/46ef0f3d-8076-4dd3-bba0-10e23f3edf0a)
+
 
 🔄 **Login de usuário já registrado**
 
@@ -79,11 +81,20 @@ Se você tiver apenas uma organização vinculada, será redirecionado automatic
 
 Se houver mais de uma organização disponível, o sistema solicitará que você escolha qual organização deseja acessar.
 
+![organizacao](https://github.com/user-attachments/assets/c1bcc033-a119-46f4-bcbd-129c1761e26a)
+
+
 **2.0**  👥 **Novos Membros/Grupos:**
 
 Neste ambiente, é possível convidar membros, definir a área de trabalho à qual eles terão acesso e organizar grupos com títulos específicos. Cada membro recebe permissões de acordo com sua função, podendo ser apenas leitor ou ter acesso para edição e gerenciamento dos dados.
 
-COLOCAR FIGURA (EXEMPLO) campo onde tem os convites
+![membros](https://github.com/user-attachments/assets/a0f98724-a7d4-4759-834e-34ca521e1a80)
+
+![membros_1](https://github.com/user-attachments/assets/8832942b-43a6-44fa-a292-f95deb975a19)
+
+![membros_2](https://github.com/user-attachments/assets/d83d0f7c-d7bb-4e08-a1fd-e0ef6f66dacd)
+
+![membros_3](https://github.com/user-attachments/assets/56461ee5-d2ac-49f4-8f05-05b29342ffd3)
 
 
 **3.0** 🎨 **Ambiente Visual**
@@ -92,109 +103,111 @@ Ao acessar o sistema, o usuário visualiza a tela inicial com sua Área de Traba
 
 O GEO360 PRO conta com uma barra lateral à esquerda, que reúne todas as ferramentas e funcionalidades disponíveis na plataforma.
 
-COLOCAR MAIS COISAS E FIGURAS (EXEMPLO)
+![ambiente_visual_atualizado](https://github.com/user-attachments/assets/4bc1e457-10cb-4438-9b36-a4f958b6888c)
+
 
 **4.0** 👤 **Menu do Colaborador**
 
 No canto inferior esquerdo, o usuário pode acessar o Menu do Colaborador, onde é possível:
 
-° Ver e gerenciar os dados da sua conta;
+**°** Ver e gerenciar os dados da sua conta;
 
-° Alterar o tema da página (Cores distintas);
+**°** Alterar o tema da página (Cores distintas);
 
-° Sair do ambiente (fazer logout).
+**°** Sair do ambiente (fazer logout).
 
-colocar figuras (exemplo)
+![menu_colaborador_atualizado](https://github.com/user-attachments/assets/48896f29-9f08-41e9-8850-71203304a070)
+
+
 
 **4.1** 🔐 **Perfis de Acesso**
 
-🔍 **Leitor:** Pode visualizar os dados no mapa, fazer consultas e usar alguns autosserviços liberados para esse perfil.
+![perfis_acesso](https://github.com/user-attachments/assets/aa19674f-0e19-4503-8330-d4fdcc60e089)
 
-✍️ **Editor:** Pode acessar, editar e atualizar informações e camadas, sempre dentro dos limites definidos pelos organizadores.
+![perfis_acesso_1](https://github.com/user-attachments/assets/04c5b91a-79bd-41db-b0aa-a054a0965614)
 
-🛠️ **Organizador:** Tem acesso total à Área de Trabalho. Pode visualizar, editar, personalizar, gerenciar dados, controlar permissões e administrar os membros do grupo.
-
-Confirmar perfis com a Lu e a Ana 
-
-Colocar figuras (exemplo)
 
 NOVA ABA ( MENU > CONTEÚDO )
 
 **5.0** 🗺️ **Nova Área de Trabalho**
 
-As Áreas de Trabalho servem para organizar os dados de forma separada, de acordo com cada setor e suas necessidades. Também são usadas para controlar quem pode acessar ou editar esses dados. Por exemplo, é possível criar uma Área de Trabalho para cada secretaria da prefeitura, onde cada setor terá seu próprio ambiente e será responsável por suas informações. A criação das novas áreas segue o mesmo processo das já existentes.
+As Áreas de Trabalho servem para organizar os dados de forma separada, de acordo com cada setor e suas necessidades. Também são usadas para controlar quem pode acessar ou editar esses dados. Por exemplo, é possível criar uma Área de Trabalho para cada secretaria da prefeitura, onde cada setor terá seu próprio ambiente e será responsável por suas informações. A criação das novas áreas segue o mesmo processo das já existentes. Abaixo segue uma descrição estruturada do fluxo do processo:
 
-COLOCAR FIGURA (EXEMPLO)
+![area_trabalho](https://github.com/user-attachments/assets/7665b53e-69a7-49ca-bcaf-f81fdcee2d18)
+
 
 **6.0** 📥 **Importador de Dados:**
 
 O Importador de Dados é uma ferramenta que permite carregar dados externos para dentro do GEO360 PRO, organizando essas informações em camadas no mapa.
-
 Por meio dele, é possível importar diferentes tipos de dados, como:
 
-🗺️ **Dados vetoriais:** mapas de ruas, lotes, bairros, pontos, linhas e polígonos (formatos como SHP, GeoJSON, DXF, entre outros);
+ **Dados vetoriais**: mapas de ruas, lotes, bairros, pontos, linhas e polígonos (formatos como SHP, GeoJSON, DXF, entre outros);
+ 
+ ![importador_dados](https://github.com/user-attachments/assets/1f9612da-fc2f-4c0c-a6ad-0e3c51125f93)
 
-🖼️ **Dados raster:** imagens como ortofotos, mapas escaneados, imagens de satélite e outros arquivos georreferenciados (formatos como GeoTIFF, JPEG, PNG);
+![importador_dados_1](https://github.com/user-attachments/assets/7b7f408d-66e9-47f7-96a7-d961f6cb3619)
 
-📊 **Tabelas:** planilhas com informações associadas aos dados geográficos, como cadastro de imóveis, escolas, postos de saúde, ocorrências, etc. (formatos CSV, Excel).
+![importador_dados_2](https://github.com/user-attachments/assets/0136365c-6711-4fb0-bdcd-5c05f02c1e27)
 
+![importador_dados_3](https://github.com/user-attachments/assets/6a61cd2b-abfc-420c-b94b-f6ee2e7fdb97)
+
+![importador_dados_4](https://github.com/user-attachments/assets/b9c84420-b2b0-4b25-92df-0a3307317b9a)
+
+ **Dados raster**: imagens como ortofotos, mapas escaneados, imagens de satélite e outros arquivos georreferenciados (formatos como GeoTIFF, JPEG, PNG) - <span style="color:red">Em desenvolvimento</span>;
+
+ **Tabelas**: planilhas com informações associadas aos dados geográficos, como cadastro de imóveis, escolas, postos de saúde, ocorrências, etc. (formatos CSV, Excel) - <span style="color:red">Em desenvolvimento</span>;
+
+
+Apresentamos abaixo o mapa conceitual que descreve o processo de importação de dados vetoriais.
+
+![importador_dados_5](https://github.com/user-attachments/assets/761e6b55-e5b8-42ed-9444-e060a218bf5e)
+💡 Vale ressaltar que a importação de dados é permitida no formato **GeoJSON**.
 
 **7.0** 🗺️ **Mapas:** 
 
 O Mapa é a tela principal do GEO360 PRO, onde estão organizados e exibidos os dados geográficos de forma interativa. Ele permite visualizar, consultar, analisar e editar informações espaciais, além de gerenciar dados e camadas.
  
- **7.1**  🔧 **Funcionalidades:**
-
- 🔍 **Navegação:** Zoom, mover, busca por endereço, lote, coordenada ou camadas.
-
-📑 **Consulta de dados:** Visualizar informações clicando sobre elementos no mapa.
-
-🧠 **Análise espacial:** Medições, cruzamento de dados e geração de relatórios.
-
-🖊️ **Edição:** Criar, alterar ou excluir geometrias (ponto, linha, polígono) e editar atributos.
-
-🗺️ **Gestão de camadas:** Ativar, ocultar, renomear, reordenar e configurar camadas.
-
-🖼️ **Visualização de imagens:** Sobrepor ortofotos, imagens de satélite e outros dados raster.
-
-🔗 **Integrações:** Acesso a dados externos e sobreposição com outros sistemas e plataformas.
-
+ **7.1** 🔧 **Funcionalidades:**
+ 
+![novo_mapa](https://github.com/user-attachments/assets/574fab22-a85e-4797-bb5f-a6277039792b)
 
 **7.2** 📋 **Informações do Mapa:**
 
 É possível identificar visualmente alguns dados no mapa, como:
 
-🏷️ **Título:** Nome que identifica o mapa dentro da Área de Trabalho.
+ **Título**: Nome que identifica o mapa dentro da Área de Trabalho;
 
-🏢 **Área de Trabalho:** Ambiente onde o mapa está inserido, vinculado a um setor ou projeto.
+ **Camadas**: Lista dos dados visíveis e editáveis no mapa (ex.: lotes, bairros, ruas, escolas, etc.);
 
-🗂️ **Camadas:** Lista dos dados visíveis e editáveis no mapa (ex.: lotes, bairros, ruas, escolas, etc.).
+ **Área de Trabalho**: Ambiente onde o mapa está inserido, vinculado a um setor ou projeto;
 
-👤 **Criado por:** Nome do usuário que criou o mapa.
+ **Tipo**:;
 
-🕒 **Última modificação:** Data, hora e usuário que realizou a última alteração.
+ **Criado por**: Nome do usuário que criou o mapa;
 
-📄 **Tipo:** 
+ **Última modificação**: Data, hora e usuário que realizou a última alteração.
 
-Colocar figura (exemplo)
+![informacoes_mapa](https://github.com/user-attachments/assets/0e84236f-e05c-452c-b715-8db62755c591)
+![informacoes_mapa_1](https://github.com/user-attachments/assets/dcf32180-c5a4-4b79-b611-5e75a460d74b)
+![informacoes_mapa_2](https://github.com/user-attachments/assets/18612b5f-00ac-4034-996e-6c156b07d747)
+![informacoes_mapa_3](https://github.com/user-attachments/assets/37280426-7a9b-46fd-914c-c892628fa1aa)
 
-**8.0** 🔗 **Conexões**
+**8.0** 🔗 Conexões ( confirmar com a Ana o texto )
 
 As Conexões são pontes que permitem integrar o GEO360 PRO com fontes externas de dados ou em outros sistemas. Por meio delas, é possível acessar informações em tempo real, consumir serviços de mapas (WMS, WMTS, XYZ, etc.) ou se conectar a bancos de dados e APIs externas.
 
-**8.1** ⚙️ **Funcionalidades das Conexões:**
-
+8.1 ⚙️ Informações das Conexões:
 Cada conexão possui informações importantes para gestão e controle, como:
 
-🏷️ **Nome:** Identificação da conexão criada (ex.: “Ortofoto 2023” ou “Base Cartográfica IBGE”).
+ **Nome**: Identificação da conexão criada (ex.: “Ortofoto 2023” ou “Base Cartográfica IBGE”);
 
-📄 **Tipo:** Define o tipo de serviço ou fonte (ex.: WMS, WMTS, XYZ, API, Banco de Dados).
+ **Tipo**: Define o tipo de serviço ou fonte (ex.: WMS, WMTS, XYZ, API, Banco de Dados);
 
-📅 **Criado em:** Data e hora em que a conexão foi cadastrada no sistema.
+ **Criado em**: Data e hora em que a conexão foi cadastrada no sistema;
 
-🔄 **Última modificação:** Data, hora e usuário que realizou a última alteração ou atualização dessa conexão.
+ **Última modificação**: Data, hora e usuário que realizou a última alteração ou atualização dessa conexão.
 
-**8.2** 💡 **Para que servem as conexões?**
+8.2 💡 **Para que servem as conexões**? ( confirmar com a Ana o texto )
 
 Acessar mapas externos, como imagens de satélite, ortofotos ou bases públicas;
 
@@ -204,27 +217,62 @@ Garantir que as informações estejam sempre atualizadas sem precisar importar a
 
 Facilitar o uso de camadas dinâmicas, que são atualizadas na origem.
 
+
 **9.0** 📌 **Camadas**
 
 As Camadas são conjuntos de dados geográficos organizados visualmente no mapa. Cada camada representa um tipo de informação, como ruas, lotes, bairros, escolas, áreas de risco, meio ambiente, entre outros.
 
 No mapa, as camadas se sobrepõem como folhas transparentes, permitindo visualizar, analisar e cruzar diferentes informações espaciais.
 
-**9.1** ⚙️ **Funcionalidades das Camadas:**
+**9.1 Ordem das Camadas:** -
 
-🔍 **Visualizar:** Ativar ou ocultar as camadas no mapa de acordo com a necessidade.
+No GEO360 PRO, a ordem em que as camadas são adicionadas afeta diretamente como elas aparecem visualmente no mapa. As primeiras camadas adicionadas ficam por cima, enquanto as mais recentes são posicionadas abaixo.
 
-🗺️ **Consultar:** Clicar sobre os elementos para obter informações detalhadas dos dados.
 
-✍️ **Editar:** Adicionar, modificar ou excluir geometrias (pontos, linhas, polígonos) e atributos (informações descritivas).
+📌 Exemplo prático:
+Imagine que você adicionou as seguintes camadas na seguinte ordem:
 
-🎨 **Personalizar:** Alterar cores, simbologia e transparência para facilitar a leitura visual.
+**Bairros
+  Quadras**
 
-🔗 **Relacionar:** Combinar informações entre diferentes camadas para análises mais precisas.
+Nesse caso, a visualização será:
 
-📑 **Filtrar:** Aplicar filtros para exibir apenas dados de interesse.
+Bairros por cima (camada superior);
 
-**9.2** 🏷️ **Atributos da Camada:**
+Quadras no meio (camada inferior).
+
+
+![ordem_camadas](https://github.com/user-attachments/assets/b706a4c5-c028-4003-b68b-c7b030312f67)
+
+## Visualização de Mapa
+
+![Animação](./assets/mapa.gif)
+
+
+
+Observe que, embora a camada **"Quadra"** tenha sido adicionada após a camada **"Bairro"**, ela permanece em um nível inferior na hierarquia de visualização.
+Esse comportamento é intencional e necessário para preservar a legibilidade cartográfica, assegurando que camadas com menor granularidade espacial (como bairros) se sobreponham às camadas com maior detalhamento (como as quadras).
+
+💡 **Dica:** Você pode **reorganizar a ordem das camadas manualmente**, usando o painel lateral do mapa. Assim, é possível priorizar visualmente as informações mais relevantes para a sua análise ou apresentação.
+
+**9.2** ⚙️ **Funcionalidades das Camadas:**
+
+ **Visualizar:** Ativar ou ocultar as camadas no mapa de acordo com a necessidade.
+
+ **Consultar:** Clicar sobre os elementos para obter informações detalhadas dos dados.
+
+ **Editar:** Adicionar, modificar ou excluir geometrias (pontos, linhas, polígonos) e atributos (informações descritivas).
+
+ **Personalizar:** Alterar cores, simbologia e transparência para facilitar a leitura visual.
+
+ **Relacionar:** Combinar informações entre diferentes camadas para análises mais precisas.
+
+ **Filtrar:** Aplicar filtros para exibir apenas dados de interesse.
+
+ ![funcionalidades_atualizado](https://github.com/user-attachments/assets/f726ba0a-78c7-4704-95b4-a8c5c250fb22)
+
+
+**9.3** 🏷️ **Atributos da Camada:**
 
 **Título:** Nome que identifica a camada (ex.: “Lotes Urbanos”, “Limite de Bairro”, “Áreas Verdes”).
 
@@ -246,15 +294,15 @@ O Estilo define como uma camada será visualizada no mapa, ou seja, as cores, s�
 
 Ele permite transformar dados em mapas temáticos, facilitando a interpretação visual de informações, como zoneamento, classificação de áreas, densidade populacional, entre outros.
 
-🔧 **Funcionalidades:**
+ **Funcionalidades:**
 
-🏷️ **Nome:** Identificação do estilo (ex.: “Zoneamento Urbano”, “Uso do Solo”, “Risco de Enchente”).
+ **Nome:** Identificação do estilo (ex.: “Zoneamento Urbano”, “Uso do Solo”, “Risco de Enchente”).
 
-📅 **Criado em:** Data em que o estilo foi criado.
+ **Criado em:** Data em que o estilo foi criado.
 
-🔄 **Última modificação:** Data e autor da última alteração feita.
+ **Última modificação:** Data e autor da última alteração feita.
 
-🎨 **Configurações visuais:**
+ **Configurações visuais:**
 
 ° Cores de preenchimento, bordas e símbolos;
 
@@ -266,11 +314,11 @@ Ele permite transformar dados em mapas temáticos, facilitando a interpretação
 
 ° Transparência dos elementos.
 
-🔄 **Reutilização:** O mesmo estilo pode ser aplicado em diferentes camadas dentro da área de trabalho.
+ **Reutilização:** O mesmo estilo pode ser aplicado em diferentes camadas dentro da área de trabalho.
 
-🗺️ **Visualização dinâmica:** O estilo pode mudar dependendo do nível de zoom (ex.: mostrar apenas ruas principais em um nível mais distante).
+ **Visualização dinâmica:** O estilo pode mudar dependendo do nível de zoom (ex.: mostrar apenas ruas principais em um nível mais distante).
 
-💡 **Resumo:** O Estilo deixa o mapa mais claro, bonito e fácil de entender, destacando informações importantes de forma visual.
+ **Resumo:** O Estilo deixa o mapa mais claro, bonito e fácil de entender, destacando informações importantes de forma visual.
 
 COLOCAR FIGURA (EXEMPLO)
 NOVA ABA > MENU > MAPAS
@@ -285,17 +333,17 @@ NOVA ABA > MENU > Propriedades
 
 As Propriedades são informações descritivas que identificam e documentam elementos no sistema, como mapas, camadas, conexões e áreas de trabalho. Elas ajudam a manter a organização, rastrear quem criou, quando foi criado e quando foi modificado.
 
-🔧 **Funcionalidades das Propriedades:**
+ **Funcionalidades das Propriedades:**
 
-🏢 **Nome da Organização:** Identifica a quem pertence aquele recurso (Ex.: Prefeitura de São Paulo, Secretaria de Meio Ambiente).
+ **Nome da Organização:** Identifica a quem pertence aquele recurso (Ex.: Prefeitura de São Paulo, Secretaria de Meio Ambiente).
 
-👤 **Autor:** Quem criou aquele recurso dentro da plataforma (Ex.: João Silva).
+ **Autor:** Quem criou aquele recurso dentro da plataforma (Ex.: João Silva).
 
-📅 **Criado em:** Data e hora em que o item foi criado.
+ **Criado em:** Data e hora em que o item foi criado.
 
-🔄 **Última modificação:** Data e autor da última alteração realizada.
+ **Última modificação:** Data e autor da última alteração realizada.
 
-💡 **Resumo:** As propriedades são essenciais para o controle, rastreabilidade e organização dos dados dentro do GEO360 PRO, garantindo que os usuários saibam quem criou, quem editou e a que organização pertence cada elemento do sistema.
+ **Resumo:** As propriedades são essenciais para o controle, rastreabilidade e organização dos dados dentro do GEO360 PRO, garantindo que os usuários saibam quem criou, quem editou e a que organização pertence cada elemento do sistema.
 
 NOVA ABA > MENU > PESQUISA 
 
@@ -303,11 +351,11 @@ NOVA ABA > MENU > PESQUISA
 
 A Pesquisa é uma funcionalidade que permite localizar informações de forma rápida dentro do sistema. Ela facilita a busca por elementos como camadas, conexões, usuários, mapas, estilos e outros recursos cadastrados na plataforma.
 
-🔧 **Funcionalidades:**
+ **Funcionalidades:**
 
-🔍 **Busca rápida:** Localize facilmente por nome, descrição ou palavras-chave.
+ **Busca rápida:** Localize facilmente por nome, descrição ou palavras-chave.
 
-🗂️ **Filtros por categorias:**
+ **Filtros por categorias:**
 
 🔸 Camadas – Buscar por nome, criador, data ou tipo (vetor, raster, tabela).
 
@@ -319,19 +367,19 @@ A Pesquisa é uma funcionalidade que permite localizar informações de forma r�
 
 A pesquisa também conta com uma opção de filtro avançado, permitindo fazer buscas específicas utilizando:
 
-🔧 **Recurso:** Escolher se deseja buscar em Camadas, Conexões, Usuários ou outro elemento.
+ **Recurso:** Escolher se deseja buscar em Camadas, Conexões, Usuários ou outro elemento.
 
-🏷️ **Campos:** Escolher qual campo deseja pesquisar (ex.: nome, autor, data, tipo, e-mail).
+ **Campos:** Escolher qual campo deseja pesquisar (ex.: nome, autor, data, tipo, e-mail).
 
-🔗 **Condições:** Definir critérios como: ??
+ **Condições:** Definir critérios como: ??
 
 
 
-🔍 **Valor:** Informar o dado que deseja buscar (ex.: nome da camada, nome do usuário, tipo de conexão).
+ **Valor:** Informar o dado que deseja buscar (ex.: nome da camada, nome do usuário, tipo de conexão).
 
-📦 **Tipo de Material (quando aplicável):** Especificar se está buscando um vetor, raster, tabela, conexão de dados ou outro tipo de item. ???
+ **Tipo de Material (quando aplicável):** Especificar se está buscando um vetor, raster, tabela, conexão de dados ou outro tipo de item. ???
 
-💡 **Resumo:** A ferramenta de Pesquisa do GEO360 PRO permite localizar rapidamente qualquer elemento dentro do sistema e, com o filtro avançado, é possível refinar ainda mais os resultados, otimizando o trabalho e a organização dos dados.
+ **Resumo:** A ferramenta de Pesquisa do GEO360 PRO permite localizar rapidamente qualquer elemento dentro do sistema e, com o filtro avançado, é possível refinar ainda mais os resultados, otimizando o trabalho e a organização dos dados.
 
 NOVA ABA > MENU > CADASTRO TERRITORIAL
 
@@ -345,33 +393,33 @@ O Cadastro Territorial é o conjunto de funcionalidades que permite criar, atual
 
 **14.1** **Operações Cadastrais**
 
-🔧 **Funcionalidades:** 
+ **Funcionalidades:** 
 
-👤 **Pessoas**
+ **Pessoas**
 
-➕ Criar Pessoa Física
+ Criar Pessoa Física
 
-➕ Criar Pessoa Jurídica
+ Criar Pessoa Jurídica
 
-🔗 Vincular pessoa a um imóvel
+ Vincular pessoa a um imóvel
 
-📄 **Dados principais:**
+ **Dados principais:**
 
 ° Pessoa Física: Nome, CPF, Data de Início
 
 ° Pessoa Jurídica: Nome, CNPJ, Logradouro
 
-🏠 **Imóveis**
+ **Imóveis**
 
-➕ Criar imóvel
+ Criar imóvel
 
-🚫 Desativar imóvel
+ Desativar imóvel
 
-✂️ Desmembrar imóvel
+ Desmembrar imóvel
 
-🔗 Unificar imóvel
+ Unificar imóvel
 
-📄 **Dados principais:**
+ **Dados principais:**
 
 ° Número do Cadastro
 
@@ -379,21 +427,21 @@ O Cadastro Territorial é o conjunto de funcionalidades que permite criar, atual
 
 ° Data de Criação
 
-📐 **Parcelas**
+ **Parcelas**
 
-➕ Criar parcela
+ Criar parcela
 
-🔗 Unificar parcelas
+ Unificar parcelas
 
-✂️ Desmembramento por Desdobro
+ Desmembramento por Desdobro
 
-✂️ Desmembramento por Loteamento
+ Desmembramento por Loteamento
 
-🛠️ Retificação de Área
+ Retificação de Área
 
-📍 Estremação (ajuste dos limites)
+ Estremação (ajuste dos limites)
 
-📄 **Dados principais:**
+ **Dados principais:**
 
 ° ID da Parcela
 
@@ -401,13 +449,13 @@ O Cadastro Territorial é o conjunto de funcionalidades que permite criar, atual
 
 ° Data de Início
 
-🏙️ **Logradouros**
+ **Logradouros**
 
-➕ Criar logradouro
+ Criar logradouro
 
-✂️ Dividir logradouro
+ Dividir logradouro
 
-📄 **Dados principais:**
+ **Dados principais:**
 
 ° Código da Unidade Administrativa
 
@@ -417,13 +465,13 @@ O Cadastro Territorial é o conjunto de funcionalidades que permite criar, atual
 
 ° Tipo (Rua, Avenida, Travessa, etc.)
 
-🏢 **Condomínios**
+ **Condomínios**
 
-➕ Criar condomínio
+ Criar condomínio
 
-🚫 Desativar condomínio
+ Desativar condomínio
 
-📄 **Dados principais:**
+ **Dados principais:**
 
 ° Nome
 
@@ -431,48 +479,48 @@ O Cadastro Territorial é o conjunto de funcionalidades que permite criar, atual
 
 ° ID da Unidade Administrativa
 
-🚧 **Testadas (frentes de lotes)**
+ **Testadas (frentes de lotes)**
 
-✂️ Dividir testadas
+ Dividir testadas
 
-🔗 Unificar testadas
+ Unificar testadas
 
-📄 **Dados principais:**
+ **Dados principais:**
 
 
-🏗️ **Benfeitorias (obras, muros, pavimentações, etc.)**
+ **Benfeitorias (obras, muros, pavimentações, etc.)**
 
-➕ Criar benfeitorias
+ Criar benfeitorias
 
-🗑️ Remover benfeitorias
+ Remover benfeitorias
 
-📄 **Dados principais:**
+ **Dados principais:**
 
 NOVA ABA > MENU > COLETOR DE DADOS
 
 **15.0** 📝 **Coleta de Dados**:
 
-🔍 **O que é?**
+ **O que é?**
 
 A funcionalidade de Coleta de Dados permite organizar e direcionar trabalhos de campo de forma simples e eficiente. Com ela, é possível atribuir tarefas aos membros da equipe e criar questionários personalizados para orientar a coleta de informações diretamente no território.
 
-🏗️ **Funcionalidades Principais:**
+ **Funcionalidades Principais:**
 
-✔️ Atribuição de Tarefas
+ Atribuição de Tarefas
 
 É possível criar tarefas específicas para membros ou grupos.
 
 Cada tarefa fica vinculada a uma área de trabalho e questionário.
 
-📑 Criação de Questionários
+ Criação de Questionários
 
-➕ Adicionar Título: Define o nome do questionário.
+ Adicionar Título: Define o nome do questionário.
 
-📝 Descrição: Explica o objetivo da coleta ou os critérios da tarefa.
+ Descrição: Explica o objetivo da coleta ou os critérios da tarefa.
 
-🧾 Inserção de Formulários: Adiciona campos para preenchimento de dados.
+ Inserção de Formulários: Adiciona campos para preenchimento de dados.
 
-⚙️ **Os formulários podem incluir:**
+ **Os formulários podem incluir:**
 
 ° Texto (nomes, observações)
 
