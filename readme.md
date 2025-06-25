@@ -64,7 +64,8 @@ Para acessar o ambiente do GEO360 PRO, siga os passos abaixo:
 
 **°** Já tem cadastro? Clique em “Entrar” e informe seus dados.
 
-![bem_vindo](https://github.com/user-attachments/assets/c99f1dfd-2aa7-4191-a314-48ed440956e7)
+![bem_vindo_](https://github.com/user-attachments/assets/415b91b7-b26e-42fe-b91a-c984bc790f94)
+
 Figura 1 - Tela de autenticação do sistema GEO360 PRO
 
  →	 Exibe o formulário de login utilizado para acesso ao ambiente.
@@ -74,7 +75,8 @@ Figura 1 - Tela de autenticação do sistema GEO360 PRO
 
 Após o registro, você receberá um e-mail no endereço informado para ativar sua conta. Somente após a ativação será possível acessar a organização.
 
-![confirmacao_email](https://github.com/user-attachments/assets/46ef0f3d-8076-4dd3-bba0-10e23f3edf0a)
+![confirmacao_email](https://github.com/user-attachments/assets/e0480fa8-977e-4652-906f-bdf55342f94f)
+
 Figura 2 - E-mail de confirmação de conta
 
 → Mensagem enviada automaticamente para validação do endereço de e-mail cadastrado.
@@ -88,7 +90,7 @@ Se você tiver apenas uma organização vinculada, será redirecionado automatic
 
 Se houver mais de uma organização disponível, o sistema solicitará que você escolha qual organização deseja acessar.
 
-![organizacao](https://github.com/user-attachments/assets/c1bcc033-a119-46f4-bcbd-129c1761e26a)
+![organizacao](https://github.com/user-attachments/assets/dacf4038-f551-4c31-bda2-e42789182a05)
 
 Figura 3 - Seleção de organizações disponíveis
 
@@ -98,27 +100,27 @@ Figura 3 - Seleção de organizações disponíveis
 
 Neste ambiente, é possível convidar membros, definir a área de trabalho à qual eles terão acesso e organizar grupos com títulos específicos. Cada membro recebe permissões de acordo com sua função, podendo ser apenas leitor ou ter acesso para edição e gerenciamento dos dados.
 
-![membros](https://github.com/user-attachments/assets/a0f98724-a7d4-4759-834e-34ca521e1a80)
+![membros](https://github.com/user-attachments/assets/89f68100-ee37-4b2b-b2e8-d549ea16f014)
 
 Figura 4 - Listagem de membros da organização
 
 → Exibe os usuários cadastrados em uma organização específica, com seus respectivos perfis.
 
-![membros_1](https://github.com/user-attachments/assets/8832942b-43a6-44fa-a292-f95deb975a19)
+![membros_1](https://github.com/user-attachments/assets/448a8758-10f3-47ef-a07b-86e16d99968b)
 
 Figura 5 - Tela de convite para participação na organização
 
 → Interface utilizada para convidar novos membros para compor a organização.
 
 
-![membros_2](https://github.com/user-attachments/assets/d83d0f7c-d7bb-4e08-a1fd-e0ef6f66dacd)
+![membros_2](https://github.com/user-attachments/assets/3f669dc1-cef0-449b-bdb2-83e65f58c5dd)
 
 Figura 6 - Página de grupos e criação de novos.
 
 → Ambiente para visualização e gerenciamento dos grupos existentes, com opção de criação de novos.
 
 
-![membros_3](https://github.com/user-attachments/assets/56461ee5-d2ac-49f4-8f05-05b29342ffd3)
+![membros_3](https://github.com/user-attachments/assets/299a23cb-5373-4651-aa31-8e3e93eab18f)
 
 Figura 7 - Listagem de grupos disponíveis na organização
 
@@ -131,7 +133,7 @@ Ao acessar o sistema, o usuário visualiza a tela inicial com sua Área de Traba
 
 O GEO360 PRO conta com uma barra lateral à esquerda, que reúne as ferramentas e funcionalidades disponíveis na plataforma.
 
-![ambiente_visual_atualizado](https://github.com/user-attachments/assets/4bc1e457-10cb-4438-9b36-a4f958b6888c)
+![ambiente_visual_atualizado](https://github.com/user-attachments/assets/4bbd80ef-d8c0-4739-8da9-274bdbfb888a)
 
 Figura 8 - Ambiente visual principal do GEO360 PRO
 
@@ -147,7 +149,7 @@ No canto inferior esquerdo, o usuário pode acessar o Menu do Colaborador, onde 
 
 **°** Sair do ambiente (fazer logout).
 
-![menu_colaborador_atualizado](https://github.com/user-attachments/assets/48896f29-9f08-41e9-8850-71203304a070)
+![menu_colaborador_atualizado](https://github.com/user-attachments/assets/2443a664-58da-4af6-a5cd-388521763c96)
 
 Figura 9 - Menu do Colaborador
 
@@ -155,13 +157,13 @@ Figura 9 - Menu do Colaborador
 
 **4.1** 🔐 **Perfis de Acesso**
 
-![perfis_acesso](https://github.com/user-attachments/assets/aa19674f-0e19-4503-8330-d4fdcc60e089)
+![perfis_acesso](https://github.com/user-attachments/assets/ce861df7-af4c-47d5-9e90-16b2f387c485)
 
 Figura 10 - Pefis de acesso disponíveis
 
 → Demonstração dos níveis de permissão atribuídos aos usuários no sistema.
 
-![perfis_acesso_1](https://github.com/user-attachments/assets/04c5b91a-79bd-41db-b0aa-a054a0965614)
+![perfis_acesso_1](https://github.com/user-attachments/assets/81fa6b57-782c-42f5-a9c9-5dd86895696c)
 
 Figura 11 - Funcionalidades principais do sistema
 
@@ -184,31 +186,31 @@ Por meio dele, é possível importar diferentes tipos de dados, como:
 
  **Dados vetoriais**: mapas de ruas, lotes, bairros, pontos, linhas e polígonos (formatos como SHP, GeoJSON, DXF, entre outros);
  
- ![importador_dados](https://github.com/user-attachments/assets/1f9612da-fc2f-4c0c-a6ad-0e3c51125f93)
+![importador_dados](https://github.com/user-attachments/assets/f5ca854a-eb81-4b8b-88a9-7946a93d822f)
 
  Figura 12 - Importador de Dados Vetoriais - Envio de Arquivo Local
 
  → Processo inicial de importação de um arquivo vetorial a partir do computador do usuário.
 
-![importador_dados_1](https://github.com/user-attachments/assets/7b7f408d-66e9-47f7-96a7-d961f6cb3619)
+![importador_dados_1](https://github.com/user-attachments/assets/c8d22dc8-c574-4365-b469-c552b0ce1f13)
 
 Figura 13 - Importador de Dados Vetoriais - Processamento do Arquivo
 
 → Andamento e validação da importação de dados vetoriais.
 
-![importador_dados_2](https://github.com/user-attachments/assets/0136365c-6711-4fb0-bdcd-5c05f02c1e27)
+![importador_dados_2](https://github.com/user-attachments/assets/95ba48fc-0f86-4021-886c-bcb63fdc067a)
 
 Figura 14 - Importador de Dados Vetoriais - Visualização no Mapa
 
 → Resultado da importação, com os dados sendo exibidos no ambiente do mapa.
 
-![importador_dados_3](https://github.com/user-attachments/assets/6a61cd2b-abfc-420c-b94b-f6ee2e7fdb97)
+![importador_dados_3](https://github.com/user-attachments/assets/7654857f-f736-436d-bc22-53dd2e32b55f)
 
 Figura 15 - Importador de Dados Vetoriais - Arquivo Enviado com Sucesso
 
 → Confirmação de envio do arquivo e status final da operação.
 
-![importador_dados_4](https://github.com/user-attachments/assets/b9c84420-b2b0-4b25-92df-0a3307317b9a)
+![importador_dados_4](https://github.com/user-attachments/assets/8ed40f65-cc17-4c3a-b8a1-0a38a93b9d50)
 
  **Dados raster**: imagens como ortofotos, mapas escaneados, imagens de satélite e outros arquivos georreferenciados (formatos como GeoTIFF, JPEG, PNG) - <span style="color:red">Em desenvolvimento</span>;
 
@@ -217,7 +219,8 @@ Figura 15 - Importador de Dados Vetoriais - Arquivo Enviado com Sucesso
 
 Apresentamos abaixo o mapa conceitual que descreve o processo de importação de dados vetoriais.
 
-![importador_dados_5](https://github.com/user-attachments/assets/761e6b55-e5b8-42ed-9444-e060a218bf5e)
+![importador_dados_5](https://github.com/user-attachments/assets/46fac30a-8909-405b-9f0a-30b9b63a435a)
+
 💡 Vale ressaltar que a importação de dados é permitida no formato **GeoJSON**.
 
 **7.0** 🗺️ **Mapas:** 
@@ -230,7 +233,7 @@ Figura 16 - Listagem de Mapas Disponíveis na Organização
  
  **7.1** 🔧 **Funcionalidades:**
  
-![novo_mapa](https://github.com/user-attachments/assets/574fab22-a85e-4797-bb5f-a6277039792b)
+![novo_mapa](https://github.com/user-attachments/assets/6567a206-3cd4-4108-b898-d4419cbac087)
 
 **7.2** 📋 **Informações do Mapa:**
 
@@ -248,27 +251,27 @@ Figura 16 - Listagem de Mapas Disponíveis na Organização
 
  **Última modificação**: Data, hora e usuário que realizou a última alteração.
 
-![informacoes_mapa](https://github.com/user-attachments/assets/0e84236f-e05c-452c-b715-8db62755c591)
+![informacoes_mapa](https://github.com/user-attachments/assets/5f10b821-c3c9-4e9b-ba56-a65535c3ae15)
 
 Figura 17 - Processo de Criação de um Novo Mapa
 
 → Etapas para iniciar e configurar um novo mapa temático no sistema.
 
 
-![informacoes_mapa_1](https://github.com/user-attachments/assets/dcf32180-c5a4-4b79-b611-5e75a460d74b)
+![informacoes_mapa_1](https://github.com/user-attachments/assets/7376e7d3-7ec8-4d49-9cd4-d7020ff14efa)
 
 Figura 18 - Adição de Camadas ao Mapa
 
 → Interface utilizada para incluir camadas no mapa ativo. 
 
-![informacoes_mapa_2](https://github.com/user-attachments/assets/18612b5f-00ac-4034-996e-6c156b07d747)
+![informacoes_mapa_2](https://github.com/user-attachments/assets/21d0fddf-1bf8-40fd-b547-d23d27637078)
 
 Figura 19 - Seleção de Camadas a partir da listagem de Mapas existentes
 
 → Permite importar camadas de outros mapas previamente criados.
 
 
-![informacoes_mapa_3](https://github.com/user-attachments/assets/37280426-7a9b-46fd-914c-c892628fa1aa)
+![informacoes_mapa_3](https://github.com/user-attachments/assets/3baa68a2-0af3-47d6-be1a-6fd6cf9bedb8)
 
 
 **8.0** 🔗 Conexões ( confirmar com a Ana o texto )
@@ -322,6 +325,7 @@ Quadras no meio (camada inferior).
 
 ![Visualização do Mapa](./ordem_camadas.gif)
 
+
 Figura 20 - Organização e Ordenamento das Camadas
 
 → Controle de sobreposição e hierarquia de camadas no ambiente de visualização. 
@@ -346,7 +350,7 @@ Esse comportamento é intencional e necessário para preservar a legibilidade ca
 
  **Filtrar:** Aplicar filtros para exibir apenas dados de interesse.
 
- ![funcionalidades_atualizado](https://github.com/user-attachments/assets/f726ba0a-78c7-4704-95b4-a8c5c250fb22)
+![funcionalidades_atualizado](https://github.com/user-attachments/assets/70ce88a2-312a-4820-8a91-bdada4f4142b)
 
 
 **9.3** 🏷️ **Atributos da Camada:**
@@ -366,7 +370,7 @@ Esse comportamento é intencional e necessário para preservar a legibilidade ca
 **Última Atualização:** Data, hora e usuário responsáveis pela última modificação da camada (geometria ou atributos).  
 **Exemplo:** Atualizado por `topografia_luana` em `04/06/2025 às 10:15`.
 
-![atributos_camadas](https://github.com/user-attachments/assets/e95b5585-8421-48d0-9934-7c7423f0dd27)
+![atributos_camadas](https://github.com/user-attachments/assets/c7499124-0f4e-4636-967c-cb455acf2e6a)
 
 Figura 21 - Tabela de Atributos das Camadas
 
