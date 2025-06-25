@@ -66,7 +66,7 @@ Para acessar o ambiente do GEO360 PRO, siga os passos abaixo:
 
 ![bem_vindo_](https://github.com/user-attachments/assets/415b91b7-b26e-42fe-b91a-c984bc790f94)
 
-Figura 1 - Tela de autenticação do sistema GEO360 PRO
+**Figura 1 - Tela de autenticação do sistema GEO360 PRO**
 
  →	 Exibe o formulário de login utilizado para acesso ao ambiente.
 
@@ -77,7 +77,7 @@ Após o registro, você receberá um e-mail no endereço informado para ativar s
 
 ![confirmacao_email](https://github.com/user-attachments/assets/e0480fa8-977e-4652-906f-bdf55342f94f)
 
-Figura 2 - E-mail de confirmação de conta
+**Figura 2 - E-mail de confirmação da conta**
 
 → Mensagem enviada automaticamente para validação do endereço de e-mail cadastrado.
 
@@ -92,7 +92,7 @@ Se houver mais de uma organização disponível, o sistema solicitará que você
 
 ![organizacao](https://github.com/user-attachments/assets/dacf4038-f551-4c31-bda2-e42789182a05)
 
-Figura 3 - Seleção de organizações disponíveis
+**Figura 3 - Seleção de organizações disponíveis**
 
 → Tela que apresenta as organizações às quais o usuário possui acesso.
 
@@ -102,27 +102,27 @@ Neste ambiente, é possível convidar membros, definir a área de trabalho à qu
 
 ![membros](https://github.com/user-attachments/assets/89f68100-ee37-4b2b-b2e8-d549ea16f014)
 
-Figura 4 - Listagem de membros da organização
+**Figura 4 - Listagem de membros da organização**
 
 → Exibe os usuários cadastrados em uma organização específica, com seus respectivos perfis.
 
 ![membros_1](https://github.com/user-attachments/assets/448a8758-10f3-47ef-a07b-86e16d99968b)
 
-Figura 5 - Tela de convite para participação na organização
+**Figura 5 - Tela de convite para participação na organização**
 
 → Interface utilizada para convidar novos membros para compor a organização.
 
 
 ![membros_2](https://github.com/user-attachments/assets/3f669dc1-cef0-449b-bdb2-83e65f58c5dd)
 
-Figura 6 - Página de grupos e criação de novos.
+**Figura 6 - Página de grupos e criação de novos.**
 
 → Ambiente para visualização e gerenciamento dos grupos existentes, com opção de criação de novos.
 
 
 ![membros_3](https://github.com/user-attachments/assets/299a23cb-5373-4651-aa31-8e3e93eab18f)
 
-Figura 7 - Listagem de grupos disponíveis na organização
+**Figura 7 - Listagem de grupos disponíveis na organização**
 
 → Apresenta os grupos ativos e suas respectivas permissões dentro da organização.
 
@@ -135,7 +135,7 @@ O GEO360 PRO conta com uma barra lateral à esquerda, que reúne as ferramentas 
 
 ![ambiente_visual_atualizado](https://github.com/user-attachments/assets/4bbd80ef-d8c0-4739-8da9-274bdbfb888a)
 
-Figura 8 - Ambiente visual principal do GEO360 PRO
+**Figura 8 - Ambiente visual principal do GEO360 PRO**
 
 → Interface onde ocorre a visualização dos mapas e interação com os dados geoespaciais.
 
@@ -151,7 +151,7 @@ No canto inferior esquerdo, o usuário pode acessar o Menu do Colaborador, onde 
 
 ![menu_colaborador_atualizado](https://github.com/user-attachments/assets/2443a664-58da-4af6-a5cd-388521763c96)
 
-Figura 9 - Menu do Colaborador
+**Figura 9 - Menu do Colaborador**
 
 → Acesso rápido a opções pessoais, como tema, conta e logout.
 
@@ -159,13 +159,13 @@ Figura 9 - Menu do Colaborador
 
 ![perfis_acesso](https://github.com/user-attachments/assets/ce861df7-af4c-47d5-9e90-16b2f387c485)
 
-Figura 10 - Pefis de acesso disponíveis
+**Figura 10 - Pefis de acesso disponíveis**
 
 → Demonstração dos níveis de permissão atribuídos aos usuários no sistema.
 
 ![perfis_acesso_1](https://github.com/user-attachments/assets/81fa6b57-782c-42f5-a9c9-5dd86895696c)
 
-Figura 11 - Funcionalidades principais do sistema
+**Figura 11 - Funcionalidades principais do sistema**
 
 → Apresentação dos recursos disponíveis para manipulação e análise de dados espaciais.
 
@@ -188,25 +188,25 @@ Por meio dele, é possível importar diferentes tipos de dados, como:
  
 ![importador_dados](https://github.com/user-attachments/assets/f5ca854a-eb81-4b8b-88a9-7946a93d822f)
 
- Figura 12 - Importador de Dados Vetoriais - Envio de Arquivo Local
+ **Figura 12 - Importador de Dados Vetoriais - Envio de Arquivo Local**
 
  → Processo inicial de importação de um arquivo vetorial a partir do computador do usuário.
 
 ![importador_dados_1](https://github.com/user-attachments/assets/c8d22dc8-c574-4365-b469-c552b0ce1f13)
 
-Figura 13 - Importador de Dados Vetoriais - Processamento do Arquivo
+**Figura 13 - Importador de Dados Vetoriais - Processamento do Arquivo**
 
 → Andamento e validação da importação de dados vetoriais.
 
 ![importador_dados_2](https://github.com/user-attachments/assets/95ba48fc-0f86-4021-886c-bcb63fdc067a)
 
-Figura 14 - Importador de Dados Vetoriais - Visualização no Mapa
+**Figura 14 - Importador de Dados Vetoriais - Visualização no Mapa**
 
 → Resultado da importação, com os dados sendo exibidos no ambiente do mapa.
 
 ![importador_dados_3](https://github.com/user-attachments/assets/7654857f-f736-436d-bc22-53dd2e32b55f)
 
-Figura 15 - Importador de Dados Vetoriais - Arquivo Enviado com Sucesso
+**Figura 15 - Importador de Dados Vetoriais - Arquivo Enviado com Sucesso**
 
 → Confirmação de envio do arquivo e status final da operação.
 
@@ -227,7 +227,7 @@ Apresentamos abaixo o mapa conceitual que descreve o processo de importação de
 
 O Mapa é a tela principal do GEO360 PRO, onde estão organizados e exibidos os dados geográficos de forma interativa. Ele permite visualizar, consultar, analisar e editar informações espaciais, além de gerenciar dados e camadas.
 
-Figura 16 - Listagem de Mapas Disponíveis na Organização
+**Figura 16 - Listagem de Mapas Disponíveis na Organização**
 
 → Apresenta os mapas criados e disponíveis para acesso dentro da organização.
  
@@ -253,20 +253,20 @@ Figura 16 - Listagem de Mapas Disponíveis na Organização
 
 ![informacoes_mapa](https://github.com/user-attachments/assets/5f10b821-c3c9-4e9b-ba56-a65535c3ae15)
 
-Figura 17 - Processo de Criação de um Novo Mapa
+**Figura 17 - Processo de Criação de um Novo Mapa**
 
 → Etapas para iniciar e configurar um novo mapa temático no sistema.
 
 
 ![informacoes_mapa_1](https://github.com/user-attachments/assets/7376e7d3-7ec8-4d49-9cd4-d7020ff14efa)
 
-Figura 18 - Adição de Camadas ao Mapa
+**Figura 18 - Adição de Camadas ao Mapa**
 
 → Interface utilizada para incluir camadas no mapa ativo. 
 
 ![informacoes_mapa_2](https://github.com/user-attachments/assets/21d0fddf-1bf8-40fd-b547-d23d27637078)
 
-Figura 19 - Seleção de Camadas a partir da listagem de Mapas existentes
+**Figura 19 - Seleção de Camadas a partir da listagem de Mapas existentes**
 
 → Permite importar camadas de outros mapas previamente criados.
 
@@ -326,7 +326,7 @@ Quadras no meio (camada inferior).
 ![Visualização do Mapa](./ordem_camadas.gif)
 
 
-Figura 20 - Organização e Ordenamento das Camadas
+**Figura 20 - Organização e Ordenamento das Camadas**
 
 → Controle de sobreposição e hierarquia de camadas no ambiente de visualização. 
 
@@ -372,7 +372,7 @@ Esse comportamento é intencional e necessário para preservar a legibilidade ca
 
 ![atributos_camadas](https://github.com/user-attachments/assets/c7499124-0f4e-4636-967c-cb455acf2e6a)
 
-Figura 21 - Tabela de Atributos das Camadas
+**Figura 21 - Tabela de Atributos das Camadas**
 
 → Visualização tabular dos dados descritivos associados às feições espaciais da camada.
 
