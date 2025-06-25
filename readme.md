@@ -41,7 +41,7 @@ Após a criação, a organização segue uma hierarquia padronizada composta pel
 
 **°** A navegação e a colaboração são organizadas com base nas áreas de trabalho definidas.
 
-![tenant](https://github.com/user-attachments/assets/7ebef6c6-857a-4d0f-8562-91cd5edd8e56)
+![TENANT_ATUALIZADO](https://github.com/user-attachments/assets/9735b5a8-1f8c-48c1-9031-011ca3bfbf5c)
 
 
  🌐 **Cadastro Multifinalitário**
@@ -51,8 +51,9 @@ Após a criação, a organização segue uma hierarquia padronizada composta pel
  **°** Permite a adição de informações de diversos setores — Defesa Civil, Meio Ambiente, Turismo, Saúde, Educação, entre outros;
  
  **°** Sua estrutura é flexível e não depende de um modelo específico, o que permite atender múltiplos contextos de gestão municipal.
- 
- ![cadastro_multinalitario](https://github.com/user-attachments/assets/f4e2d250-3e3d-4431-883e-3fa4d3eb1c7a)
+
+ ![cadastro_multinalitario_atualizado](https://github.com/user-attachments/assets/a4f83e44-b88f-46b9-a441-ed3dc20c6dba)
+
 **1.0 🔐 Acesso ao GEO360 PRO**
 
 Para acessar o ambiente do GEO360 PRO, siga os passos abaixo:
@@ -173,7 +174,7 @@ NOVA ABA ( MENU > CONTEÚDO )
 
 As Áreas de Trabalho servem para organizar os dados de forma separada, de acordo com cada setor e suas necessidades. Também são usadas para controlar quem pode acessar ou editar esses dados. Por exemplo, é possível criar uma Área de Trabalho para cada secretaria da prefeitura, onde cada setor terá seu próprio ambiente e será responsável por suas informações. A criação das novas áreas segue o mesmo processo das já existentes. Abaixo segue uma descrição estruturada do fluxo do processo:
 
-![area_trabalho](https://github.com/user-attachments/assets/7665b53e-69a7-49ca-bcaf-f81fdcee2d18)
+![area_trabalho_](https://github.com/user-attachments/assets/120c1862-dd4b-4fe9-bf1a-86b449320519)
 
 
 **6.0** 📥 **Importador de Dados:**
@@ -248,9 +249,27 @@ Figura 16 - Listagem de Mapas Disponíveis na Organização
  **Última modificação**: Data, hora e usuário que realizou a última alteração.
 
 ![informacoes_mapa](https://github.com/user-attachments/assets/0e84236f-e05c-452c-b715-8db62755c591)
+
+Figura 17 - Processo de Criação de um Novo Mapa
+
+→ Etapas para iniciar e configurar um novo mapa temático no sistema.
+
+
 ![informacoes_mapa_1](https://github.com/user-attachments/assets/dcf32180-c5a4-4b79-b611-5e75a460d74b)
+
+Figura 18 - Adição de Camadas ao Mapa
+
+→ Interface utilizada para incluir camadas no mapa ativo. 
+
 ![informacoes_mapa_2](https://github.com/user-attachments/assets/18612b5f-00ac-4034-996e-6c156b07d747)
+
+Figura 19 - Seleção de Camadas a partir da listagem de Mapas existentes
+
+→ Permite importar camadas de outros mapas previamente criados.
+
+
 ![informacoes_mapa_3](https://github.com/user-attachments/assets/37280426-7a9b-46fd-914c-c892628fa1aa)
+
 
 **8.0** 🔗 Conexões ( confirmar com a Ana o texto )
 
@@ -303,6 +322,10 @@ Quadras no meio (camada inferior).
 
 ![Visualização do Mapa](./ordem_camadas.gif)
 
+Figura 20 - Organização e Ordenamento das Camadas
+
+→ Controle de sobreposição e hierarquia de camadas no ambiente de visualização. 
+
 
 Observe que, embora a camada **"Quadra"** tenha sido adicionada após a camada **"Bairro"**, ela permanece em um nível inferior na hierarquia de visualização.
 Esse comportamento é intencional e necessário para preservar a legibilidade cartográfica, assegurando que camadas com menor granularidade espacial (como bairros) se sobreponham às camadas com maior detalhamento (como as quadras).
@@ -345,6 +368,11 @@ Esse comportamento é intencional e necessário para preservar a legibilidade ca
 
 ![atributos_camadas](https://github.com/user-attachments/assets/e95b5585-8421-48d0-9934-7c7423f0dd27)
 
+Figura 21 - Tabela de Atributos das Camadas
+
+→ Visualização tabular dos dados descritivos associados às feições espaciais da camada.
+
+
 💡 As camadas são fundamentais para organizar as informações geográficas, facilitando a gestão dos dados, as análises espaciais e a tomada de decisões.
 
 **10.0** 🎨 **Estilo:**
@@ -365,15 +393,15 @@ Ele permite transformar dados em mapas temáticos, facilitando a interpretação
 
  **Configurações visuais:**
 
-° Cores de preenchimento, bordas e símbolos;
+**°** Cores de preenchimento, bordas e símbolos;
 
-° Espessura e tipo de linha (tracejada, contínua, etc.);
+**°** Espessura e tipo de linha (tracejada, contínua, etc.);
 
-° Tamanhos de pontos e ícones;
+**°** Tamanhos de pontos e ícones;
 
-° Regras de classificação (ex.: por categoria, intervalo de valores, escala de cores);
+**°** Regras de classificação (ex.: por categoria, intervalo de valores, escala de cores);
 
-° Transparência dos elementos.
+**°** Transparência dos elementos.
 
  **Reutilização:** O mesmo estilo pode ser aplicado em diferentes camadas dentro da área de trabalho.
 
@@ -418,11 +446,11 @@ A Pesquisa é uma funcionalidade que permite localizar informações de forma r�
 
  **Filtros por categorias:**
 
-🔸 Camadas – Buscar por nome, criador, data ou tipo (vetor, raster, tabela).
+**°** Camadas – Buscar por nome, criador, data ou tipo (vetor, raster, tabela).
 
-🔸 Conexões – Buscar por tipo (banco, API, servidor), nome, criado por ou última modificação.
+**°** Conexões – Buscar por tipo (banco, API, servidor), nome, criado por ou última modificação.
 
-🔸 Usuários – Filtrar por nome, e-mail, perfil de acesso (Leitor, Editor, Organizador) ou área de trabalho.
+**°** Usuários – Filtrar por nome, e-mail, perfil de acesso (Leitor, Editor, Organizador) ou área de trabalho.
 
 🎯 **Filtro Avançado:**
 
@@ -466,9 +494,9 @@ O Cadastro Territorial é o conjunto de funcionalidades que permite criar, atual
 
  **Dados principais:**
 
-° Pessoa Física: Nome, CPF, Data de Início
+**°** Pessoa Física: Nome, CPF, Data de Início
 
-° Pessoa Jurídica: Nome, CNPJ, Logradouro
+**°** Pessoa Jurídica: Nome, CNPJ, Logradouro
 
  **Imóveis**
 
@@ -482,11 +510,11 @@ O Cadastro Territorial é o conjunto de funcionalidades que permite criar, atual
 
  **Dados principais:**
 
-° Número do Cadastro
+ Número do Cadastro
 
-° Inscrição Cartográfica
+ Inscrição Cartográfica
 
-° Data de Criação
+ Data de Criação
 
  **Parcelas**
 
@@ -504,11 +532,11 @@ O Cadastro Territorial é o conjunto de funcionalidades que permite criar, atual
 
  **Dados principais:**
 
-° ID da Parcela
+  ID da Parcela
 
-° Área Construída Privada
+  Área Construída Privada
 
-° Data de Início
+  Data de Início
 
  **Logradouros**
 
@@ -518,13 +546,13 @@ O Cadastro Territorial é o conjunto de funcionalidades que permite criar, atual
 
  **Dados principais:**
 
-° Código da Unidade Administrativa
+  Código da Unidade Administrativa
 
-° Código do Logradouro
+  Código do Logradouro
 
-° Nome
+  Nome
 
-° Tipo (Rua, Avenida, Travessa, etc.)
+  Tipo (Rua, Avenida, Travessa, etc.)
 
  **Condomínios**
 
@@ -534,11 +562,11 @@ O Cadastro Territorial é o conjunto de funcionalidades que permite criar, atual
 
  **Dados principais:**
 
-° Nome
+  Nome
 
-° Área Privativa Total
+  Área Privativa Total
 
-° ID da Unidade Administrativa
+  ID da Unidade Administrativa
 
  **Testadas (frentes de lotes)**
 
@@ -569,9 +597,9 @@ A funcionalidade de Coleta de Dados permite organizar e direcionar trabalhos de 
 
  Atribuição de Tarefas
 
-É possível criar tarefas específicas para membros ou grupos.
+ É possível criar tarefas específicas para membros ou grupos.
 
-Cada tarefa fica vinculada a uma área de trabalho e questionário.
+ Cada tarefa fica vinculada a uma área de trabalho e questionário.
 
  Criação de Questionários
 
@@ -583,29 +611,29 @@ Cada tarefa fica vinculada a uma área de trabalho e questionário.
 
  **Os formulários podem incluir:**
 
-° Texto (nomes, observações)
+  Texto (nomes, observações)
 
-° Números (quantidades, áreas, medidas)
+  Números (quantidades, áreas, medidas)
 
-° Fotos (registro visual direto do campo)
+  Fotos (registro visual direto do campo)
 
-° Localização geográfica (ponto no mapa)
+  Localização geográfica (ponto no mapa)
 
-° Listas de seleção (opções padronizadas)
+  Listas de seleção (opções padronizadas)
 
-° Datas, horários e outros tipos de informações relevantes
+  Datas, horários e outros tipos de informações relevantes
 
 🎯 **Para que serve?**
 
-° Levantamento de campo
+  Levantamento de campo
 
-° Atualização cadastral
+  Atualização cadastral
 
-° Inspeções urbanas
+  Inspeções urbanas
 
-° Vistorias ambientais
+  Vistorias ambientais
 
-° Fiscalização de obras, imóveis, terrenos e outros
+  Fiscalização de obras, imóveis, terrenos e outros
 
 
 
