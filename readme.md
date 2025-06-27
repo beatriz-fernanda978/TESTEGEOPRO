@@ -218,6 +218,7 @@ Confirmação de envio do arquivo e status final da operação.:
 Figura 15 - Importador de Dados Vetoriais - Arquivo Enviado com Sucesso
 
 ( colocar legenda )
+
 ![importador_dados_4](https://github.com/user-attachments/assets/8ed40f65-cc17-4c3a-b8a1-0a38a93b9d50) 
 
 
@@ -277,6 +278,10 @@ Figura 19 - Seleção de Camadas a partir da listagem de Mapas existentes
 ![informacoes_mapa_3](https://github.com/user-attachments/assets/3baa68a2-0af3-47d6-be1a-6fd6cf9bedb8) ( criar legenda )
 
 Adiconar nova imagem como ficou o mapa adicionado
+
+COLOCAR UM NOVO CAMPO
+
+VISUALIZANDO O MAPA COM SUAS FERRAMENTAS E FUNCIONALIDADES
 
 
 **9.0** 📌 **Camadas**
