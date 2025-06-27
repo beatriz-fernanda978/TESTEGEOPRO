@@ -8,7 +8,7 @@ Aqui você encontra informações de forma objetiva, com toda a organização e 
  🧠 **O que é ?**
  
   O GEO360 PRO é um sistema de mapas online (SIG) que ajuda na gestão e no compartilhamento de informações geográficas. Ele permite coletar, armazenar, analisar e publicar dados espaciais, facilitando a tomada de decisões em áreas como gestão urbana. A plataforma se integra facilmente com outros sistemas, como bancos de dados geoespaciais, garantindo segurança, flexibilidade e alta disponibilidade na nuvem ou de forma local.
-Esse sistema permite coletar, armazenar, analisar e publicar dados geográficos para diferentes áreas da prefeitura, como tributos e gestão urbana. Cada município tem seu próprio ambiente no sistema, chamado de TENANT, onde ficam organizados todos os dados e mapas. A criação desse ambiente é feita pela equipe da **Topocart**. A partir disso, as informações, como limites do município, bairros, lotes e imagens de satélite, ficam disponíveis para uso na área de trabalho.
+Esse sistema permite coletar, armazenar, analisar e publicar dados geográficos para diferentes áreas da prefeitura, como tributos e gestão urbana. Cada município tem seu próprio ambiente no sistema, chamado de **TENANT**, onde ficam organizados todos os dados e mapas. A criação desse ambiente é feita pela equipe da **TOPOCART**. A partir disso, as informações, como limites do município, bairros, lotes e imagens de satélite, ficam disponíveis para uso na área de trabalho.
 Cada área de trabalho reúne informações de um setor da administração pública. Ela é formada por camadas de dados, que podem ser específicas de um setor ou gerais, usadas por todos. O acesso é controlado por usuários, que possuem diferentes níveis de permissão conforme suas funções.
 
 
@@ -67,23 +67,22 @@ Para acessar o ambiente do GEO360 PRO, siga os passos abaixo:
 
 **°** Já tem cadastro? Clique em “Entrar” e informe seus dados.
 
+ Formulário de login utilizado para acesso ao ambiente:
+
 ![bem_vindo_](https://github.com/user-attachments/assets/415b91b7-b26e-42fe-b91a-c984bc790f94)
 
-**Figura 1 - Tela de autenticação do sistema GEO360 PRO**
-
- ↑	 Exibe o formulário de login utilizado para acesso ao ambiente.
+Figura 1 - Tela de autenticação do sistema GEO360 PRO
 
 
 📧 **Confirmação por e-mail**
 
 Após o registro, você receberá um e-mail no endereço informado para ativar sua conta. Somente após a ativação será possível acessar a organização.
 
+Mensagem enviada automaticamente para validação do endereço de e-mail cadastrado:
+
 ![confirmacao_email](https://github.com/user-attachments/assets/e0480fa8-977e-4652-906f-bdf55342f94f)
 
-**Figura 2 - E-mail de confirmação da conta**
-
-↑ Mensagem enviada automaticamente para validação do endereço de e-mail cadastrado.
-
+Figura 2 - E-mail de confirmação da conta
 
 🔄 **Login de usuário já registrado**
 
@@ -93,11 +92,35 @@ Se você tiver apenas uma organização vinculada, será redirecionado automatic
 
 Se houver mais de uma organização disponível, o sistema solicitará que você escolha qual organização deseja acessar.
 
+Tela que apresenta as organizações às quais o usuário possui acesso.
+
 ![organizacao](https://github.com/user-attachments/assets/dacf4038-f551-4c31-bda2-e42789182a05)
 
-**Figura 3 - Seleção de organizações disponíveis**
+Figura 3 - Seleção de organizações disponíveis
 
-↑ Tela que apresenta as organizações às quais o usuário possui acesso.
+**3.0** 🎨 **Ambiente Visual**
+
+Ao acessar o sistema, o usuário visualiza a tela inicial com sua Área de Trabalho. No primeiro acesso, serão exibidos os projetos disponíveis para que ele escolha qual deseja utilizar.
+
+O GEO360 PRO conta com uma barra lateral à esquerda, que reúne as ferramentas e funcionalidades disponíveis na plataforma.
+
+![ambiente_visual_atualizado](https://github.com/user-attachments/assets/4bbd80ef-d8c0-4739-8da9-274bdbfb888a)
+
+**Figura 8 - Ambiente visual principal do GEO360 PRO**: Interface onde ocorre a visualização dos mapas e interação com os dados geoespaciais.
+
+**4.0** 👤 **Menu do Colaborador**
+
+No canto inferior esquerdo, o usuário pode acessar o Menu do Colaborador, onde é possível:
+
+**°** Ver e gerenciar os dados da sua conta;
+
+**°** Alterar o tema da página (Cores distintas);
+
+**°** Sair do ambiente (fazer logout).
+
+![menu_colaborador_atualizado](https://github.com/user-attachments/assets/2443a664-58da-4af6-a5cd-388521763c96)
+
+**Figura 9 - Menu do Colaborador**: Acesso rápido a opções pessoais, como tema, conta e logout.
 
 **2.0**  👥 **Novos Membros/Grupos:**
 
@@ -105,9 +128,7 @@ Neste ambiente, é possível convidar membros, definir a área de trabalho à qu
 
 ![membros](https://github.com/user-attachments/assets/89f68100-ee37-4b2b-b2e8-d549ea16f014)
 
-**Figura 4 - Listagem de membros da organização**
-
-↑ Exibe os usuários cadastrados em uma organização específica, com seus respectivos perfis.
+**Figura 4 - Listagem de membros da organização**: Exibe os usuários cadastrados em uma organização específica, com seus respectivos perfis.
 
 ![membros_1](https://github.com/user-attachments/assets/448a8758-10f3-47ef-a07b-86e16d99968b)
 
@@ -129,40 +150,11 @@ Neste ambiente, é possível convidar membros, definir a área de trabalho à qu
 
 ↑ Apresenta os grupos ativos e suas respectivas permissões dentro da organização.
 
-
-**3.0** 🎨 **Ambiente Visual**
-
-Ao acessar o sistema, o usuário visualiza a tela inicial com sua Área de Trabalho. No primeiro acesso, serão exibidos os projetos disponíveis para que ele escolha qual deseja utilizar.
-
-O GEO360 PRO conta com uma barra lateral à esquerda, que reúne as ferramentas e funcionalidades disponíveis na plataforma.
-
-![ambiente_visual_atualizado](https://github.com/user-attachments/assets/4bbd80ef-d8c0-4739-8da9-274bdbfb888a)
-
-**Figura 8 - Ambiente visual principal do GEO360 PRO**
-
-↑ Interface onde ocorre a visualização dos mapas e interação com os dados geoespaciais.
-
-**4.0** 👤 **Menu do Colaborador**
-
-No canto inferior esquerdo, o usuário pode acessar o Menu do Colaborador, onde é possível:
-
-**°** Ver e gerenciar os dados da sua conta;
-
-**°** Alterar o tema da página (Cores distintas);
-
-**°** Sair do ambiente (fazer logout).
-
-![menu_colaborador_atualizado](https://github.com/user-attachments/assets/2443a664-58da-4af6-a5cd-388521763c96)
-
-**Figura 9 - Menu do Colaborador**
-
-↑ Acesso rápido a opções pessoais, como tema, conta e logout.
-
 **4.1** 🔐 **Perfis de Acesso**
 
 ![perfis_acesso](https://github.com/user-attachments/assets/ce861df7-af4c-47d5-9e90-16b2f387c485)
 
-**Figura 10 - Pefis de acesso disponíveis**
+**Figura 10 - Perfis de acesso disponíveis**
 
 ↑ Demonstração dos níveis de permissão atribuídos aos usuários no sistema.
 
