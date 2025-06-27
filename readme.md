@@ -3,7 +3,7 @@
 
 **Bem-vindo ao GEO360 PRO**
 
-Aqui você encontra informações de forma objetiva, com toda a organização e as ferramentas necessárias para otimizar seu trabalho. Esta é a versão GEO360 PRO, que oferece um visual mais moderno, novas funcionalidades e mais recursos para deixar seu trabalho ainda mais ágil e eficiente.
+Aqui você encontra informações de forma objetiva, com toda a organização e as ferramentas necessárias para otimizar seu trabalho. Esta é a versão PRO, que oferece um visual mais moderno, novas funcionalidades e mais recursos para deixar seu trabalho ainda mais ágil e eficiente.
 
  🧠 **O que é ?**
  
@@ -44,7 +44,7 @@ Após a criação, a organização segue uma hierarquia padronizada composta pel
 
 **°** A navegação e a colaboração são organizadas com base nas áreas de trabalho definidas.
 
-![TENANT_ATUALIZADO](https://github.com/user-attachments/assets/9735b5a8-1f8c-48c1-9031-011ca3bfbf5c)
+![TENANT_ATUALIZADO](https://github.com/user-attachments/assets/9735b5a8-1f8c-48c1-9031-011ca3bfbf5c) ( Amanda vai enviar novo mapa )
 
 
 
@@ -179,7 +179,7 @@ Figura 11 - Funcionalidades principais do sistema
 
 NOVA ABA ( MENU > CONTEÚDO )
 
-**5.0** 🗺️ **Nova Área de Trabalho**
+**5.0** 🗺️ **Nova Área de Trabalho** ( Amanda vai enviar novo mapa )
 
 As Áreas de Trabalho servem para organizar os dados de forma separada, de acordo com cada setor e suas necessidades. Também são usadas para controlar quem pode acessar ou editar esses dados. Por exemplo, é possível criar uma Área de Trabalho para cada secretaria da prefeitura, onde cada setor terá seu próprio ambiente e será responsável por suas informações. A criação das novas áreas segue o mesmo processo das já existentes. Abaixo segue uma descrição estruturada do fluxo do processo:
 
@@ -217,9 +217,9 @@ Confirmação de envio do arquivo e status final da operação.:
 
 Figura 15 - Importador de Dados Vetoriais - Arquivo Enviado com Sucesso
 
-
-![importador_dados_4](https://github.com/user-attachments/assets/8ed40f65-cc17-4c3a-b8a1-0a38a93b9d50) 
 ( colocar legenda )
+![importador_dados_4](https://github.com/user-attachments/assets/8ed40f65-cc17-4c3a-b8a1-0a38a93b9d50) 
+
 
  **Dados raster**: imagens como ortofotos, mapas escaneados, imagens de satélite e outros arquivos georreferenciados - Em desenvolvimento;
 
@@ -228,18 +228,15 @@ Figura 15 - Importador de Dados Vetoriais - Arquivo Enviado com Sucesso
 
 Apresentamos a seguir o mapa conceitual que descreve de forma visual e estruturada o processo de importação de dados vetoriais no GEO360 PRO:
 
-![importador_dados_5](https://github.com/user-attachments/assets/46fac30a-8909-405b-9f0a-30b9b63a435a) ( Amanda vai enviar novo mapa )
+( Amanda vai enviar novo mapa )
+![importador_dados_5](https://github.com/user-attachments/assets/46fac30a-8909-405b-9f0a-30b9b63a435a) 
 
 
 **7.0** 🗺️ **Mapas:** 
 
 O Mapa é a tela principal do GEO360 PRO, onde estão organizados e exibidos os dados geográficos de forma interativa. Ele permite visualizar, consultar, analisar e editar informações espaciais, além de gerenciar dados e camadas.
-
-**Figura 16 - Listagem de Mapas Disponíveis na Organização**
-
-↑ Apresenta os mapas criados e disponíveis para acesso dentro da organização.
  
- **7.1** 🔧 **Funcionalidades:** ( Amanda vai eviar novo mapa )
+ **7.1** 🔧 **Funcionalidades:** ( Amanda vai enviar novo mapa )
  
 ![novo_mapa](https://github.com/user-attachments/assets/6567a206-3cd4-4108-b898-d4419cbac087)
 
@@ -279,6 +276,8 @@ Figura 19 - Seleção de Camadas a partir da listagem de Mapas existentes
 
 ![informacoes_mapa_3](https://github.com/user-attachments/assets/3baa68a2-0af3-47d6-be1a-6fd6cf9bedb8) ( criar legenda )
 
+Adiconar nova imagem como ficou o mapa adicionado
+
 
 **9.0** 📌 **Camadas**
 
@@ -293,11 +292,11 @@ No GEO360 PRO, é importante compreender que a ordem em que as camadas são adic
 Por padrão, as camadas adicionadas primeiro são posicionadas sobre as camadas mais recentes. Isso significa que, visualmente, as primeiras camadas podem ocultar as que foram inseridas depois, dependendo do tipo e da extensão da geometria envolvida.
 
 🧭 Exemplo prático:
-Se você adicionar as camadas na seguinte ordem:
+Se você adicionar as camadas na seguinte ordem
 
-Bairros
+>Bairros
 
-Quadras
+>Quadras
 
 A visualização no mapa será:
 
@@ -305,7 +304,7 @@ A visualização no mapa será:
 
 **Quadras: camada inferior**
 
-Controle de sobreposição e hierarquia de camadas no ambiente de visualização:
+Controle de sobreposição e hierarquia de camadas no ambiente de visualização:  Melhorar gif ?
 ![Visualização do Mapa](./ordem_camadas.gif)
 
 Figura 20 - Organização e Ordenamento das Camadas
@@ -326,6 +325,7 @@ Figura 20 - Organização e Ordenamento das Camadas
 
  **Filtrar:** Aplicar filtros para exibir apenas dados de interesse.
 
+( Amanda vai enviar novo mapa )
 ![funcionalidades_atualizado](https://github.com/user-attachments/assets/70ce88a2-312a-4820-8a91-bdada4f4142b)
 
 
@@ -415,9 +415,6 @@ Ele permite transformar dados em mapas temáticos, facilitando a interpretação
  **Resumo:** O Estilo deixa o mapa mais claro, bonito e fácil de entender, destacando informações importantes de forma visual.
 
 COLOCAR FIGURA (EXEMPLO)
-NOVA ABA > MENU > MAPAS
-
-**11.0** **MAPAS:**
 
 NOVA ABA > MENU > Propriedades
 
