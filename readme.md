@@ -16,7 +16,7 @@ Cada área de trabalho reúne informações de um setor da administração públ
 
 No novo modelo, o Tenant é representado pela Organização. A seguir, estão os detalhes da estrutura e funcionamento:
 
- **1.0 Criação da Organização**
+ **1- Criação da Organização**
    
 **°** A organização é a unidade principal de isolamento e gerenciamento de dados;
 
@@ -24,7 +24,7 @@ No novo modelo, o Tenant é representado pela Organização. A seguir, estão os
 
 **°** Técnicos vinculados à empresa ou prefeitura são adicionados como membros da organização.
 
-**2.0 Estrutura Interna da Organização**
+**2- Estrutura Interna da Organização**
 
 Após a criação, a organização segue uma hierarquia padronizada composta pelos seguintes elementos:
 
@@ -36,7 +36,7 @@ Após a criação, a organização segue uma hierarquia padronizada composta pel
 
 **° Formulários**: Estrutura de coleta e atualização de dados, vinculados às camadas.
 
-**3.0 Visão do Usuário**
+**3- Visão do Usuário**
 
 **°** O usuário interage com o sistema sempre dentro do contexto de uma organização;
 
