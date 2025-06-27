@@ -122,11 +122,12 @@ No canto inferior esquerdo, o usuário pode acessar o Menu do Colaborador, onde 
 
 **°** Sair do ambiente (fazer logout).
 
-Acesso rápido a opções pessoais, como tema, conta e logout:
+Acesso rápido a opções pessoais:
 
 ![menu_colaborador_atualizado](https://github.com/user-attachments/assets/2443a664-58da-4af6-a5cd-388521763c96)
 
 Figura 5 - Menu do Colaborador
+
 
 **4.0**  👥 **Novos Membros/Grupos:**
 
@@ -138,19 +139,22 @@ Exibe os usuários cadastrados em uma organização específica, com seus respec
 
 Figura 6 - Listagem de membros da organização
 
+
 Interface utilizada para convidar novos membros para compor a organização:
 
 ![membros_1](https://github.com/user-attachments/assets/448a8758-10f3-47ef-a07b-86e16d99968b)
 
 Figura 7 - Tela de convite para participação na organização
 
-Ambiente para visualização e gerenciamento dos grupos existentes, com opção de criação de novos.
+
+Ambiente para visualização e gerenciamento dos grupos existentes, com opção de criação de novos:
 
 ![membros_2](https://github.com/user-attachments/assets/3f669dc1-cef0-449b-bdb2-83e65f58c5dd)
 
 Figura 8- Página de grupos e criação de novos
 
-Apresenta os grupos ativos e suas respectivas permissões dentro da organização.
+
+Apresenta os grupos ativos e suas respectivas permissões dentro da organização:
 
 ![membros_3](https://github.com/user-attachments/assets/299a23cb-5373-4651-aa31-8e3e93eab18f)
 
@@ -164,6 +168,7 @@ Demonstração dos níveis de permissão atribuídos aos usuários no sistema:
 ![perfis_acesso](https://github.com/user-attachments/assets/ce861df7-af4c-47d5-9e90-16b2f387c485)
 
 Figura 10 - Perfis de acesso disponíveis
+
 
 Apresentação dos recursos disponíveis para manipulação e análise de dados espaciais:
 
