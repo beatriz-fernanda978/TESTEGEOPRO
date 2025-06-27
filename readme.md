@@ -47,6 +47,7 @@ Após a criação, a organização segue uma hierarquia padronizada composta pel
 ![TENANT_ATUALIZADO](https://github.com/user-attachments/assets/9735b5a8-1f8c-48c1-9031-011ca3bfbf5c)
 
 
+
  🌐 **Cadastro Multifinalitário**
  
  **°** O Cadastro Multifinalitário é uma área de trabalho ampliada, que utiliza dados básicos da cidade;
@@ -56,6 +57,7 @@ Após a criação, a organização segue uma hierarquia padronizada composta pel
  **°** Sua estrutura é flexível e não depende de um modelo específico, o que permite atender múltiplos contextos de gestão municipal.
 
  ![cadastro_multinalitario_atualizado](https://github.com/user-attachments/assets/a4f83e44-b88f-46b9-a441-ed3dc20c6dba)
+ 
 
 **1.0 🔐 Acesso ao GEO360 PRO**
 
@@ -92,23 +94,25 @@ Se você tiver apenas uma organização vinculada, será redirecionado automatic
 
 Se houver mais de uma organização disponível, o sistema solicitará que você escolha qual organização deseja acessar.
 
-Tela que apresenta as organizações às quais o usuário possui acesso.
+Tela que apresenta as organizações às quais o usuário possui acesso:
 
 ![organizacao](https://github.com/user-attachments/assets/dacf4038-f551-4c31-bda2-e42789182a05)
 
 Figura 3 - Seleção de organizações disponíveis
 
-**3.0** 🎨 **Ambiente Visual**
+**2.0** 🎨 **Ambiente Visual**
 
 Ao acessar o sistema, o usuário visualiza a tela inicial com sua Área de Trabalho. No primeiro acesso, serão exibidos os projetos disponíveis para que ele escolha qual deseja utilizar.
 
 O GEO360 PRO conta com uma barra lateral à esquerda, que reúne as ferramentas e funcionalidades disponíveis na plataforma.
 
+Interface onde ocorre a visualização dos mapas e interação com os dados geoespaciais:
+
 ![ambiente_visual_atualizado](https://github.com/user-attachments/assets/4bbd80ef-d8c0-4739-8da9-274bdbfb888a)
 
-**Figura 8 - Ambiente visual principal do GEO360 PRO**: Interface onde ocorre a visualização dos mapas e interação com os dados geoespaciais.
+Figura 4 - Ambiente visual principal do GEO360 PRO
 
-**4.0** 👤 **Menu do Colaborador**
+**3.0** 👤 **Menu do Colaborador**
 
 No canto inferior esquerdo, o usuário pode acessar o Menu do Colaborador, onde é possível:
 
@@ -118,51 +122,54 @@ No canto inferior esquerdo, o usuário pode acessar o Menu do Colaborador, onde 
 
 **°** Sair do ambiente (fazer logout).
 
+Acesso rápido a opções pessoais, como tema, conta e logout:
+
 ![menu_colaborador_atualizado](https://github.com/user-attachments/assets/2443a664-58da-4af6-a5cd-388521763c96)
 
-**Figura 9 - Menu do Colaborador**: Acesso rápido a opções pessoais, como tema, conta e logout.
+Figura 5 - Menu do Colaborador
 
-**2.0**  👥 **Novos Membros/Grupos:**
+**4.0**  👥 **Novos Membros/Grupos:**
 
 Neste ambiente, é possível convidar membros, definir a área de trabalho à qual eles terão acesso e organizar grupos com títulos específicos. Cada membro recebe permissões de acordo com sua função, podendo ser apenas leitor ou ter acesso para edição e gerenciamento dos dados.
 
+Exibe os usuários cadastrados em uma organização específica, com seus respectivos perfis:
+
 ![membros](https://github.com/user-attachments/assets/89f68100-ee37-4b2b-b2e8-d549ea16f014)
 
-**Figura 4 - Listagem de membros da organização**: Exibe os usuários cadastrados em uma organização específica, com seus respectivos perfis.
+Figura 6 - Listagem de membros da organização
+
+Interface utilizada para convidar novos membros para compor a organização:
 
 ![membros_1](https://github.com/user-attachments/assets/448a8758-10f3-47ef-a07b-86e16d99968b)
 
-**Figura 5 - Tela de convite para participação na organização**
+Figura 7 - Tela de convite para participação na organização
 
-↑ Interface utilizada para convidar novos membros para compor a organização.
-
+Ambiente para visualização e gerenciamento dos grupos existentes, com opção de criação de novos.
 
 ![membros_2](https://github.com/user-attachments/assets/3f669dc1-cef0-449b-bdb2-83e65f58c5dd)
 
-**Figura 6 - Página de grupos e criação de novos.**
+Figura 8- Página de grupos e criação de novos
 
-↑ Ambiente para visualização e gerenciamento dos grupos existentes, com opção de criação de novos.
-
+Apresenta os grupos ativos e suas respectivas permissões dentro da organização.
 
 ![membros_3](https://github.com/user-attachments/assets/299a23cb-5373-4651-aa31-8e3e93eab18f)
 
-**Figura 7 - Listagem de grupos disponíveis na organização**
+Figura 9 - Listagem de grupos disponíveis na organização
 
-↑ Apresenta os grupos ativos e suas respectivas permissões dentro da organização.
 
 **4.1** 🔐 **Perfis de Acesso**
 
+Demonstração dos níveis de permissão atribuídos aos usuários no sistema:
+
 ![perfis_acesso](https://github.com/user-attachments/assets/ce861df7-af4c-47d5-9e90-16b2f387c485)
 
-**Figura 10 - Perfis de acesso disponíveis**
+Figura 10 - Perfis de acesso disponíveis
 
-↑ Demonstração dos níveis de permissão atribuídos aos usuários no sistema.
+Apresentação dos recursos disponíveis para manipulação e análise de dados espaciais:
 
 ![perfis_acesso_1](https://github.com/user-attachments/assets/81fa6b57-782c-42f5-a9c9-5dd86895696c)
 
-**Figura 11 - Funcionalidades principais do sistema**
-
-↑ Apresentação dos recursos disponíveis para manipulação e análise de dados espaciais.
+Figura 11 - Funcionalidades principais do sistema
 
 
 NOVA ABA ( MENU > CONTEÚDO )
