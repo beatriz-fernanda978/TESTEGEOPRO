@@ -48,7 +48,7 @@ Após a criação, a organização segue uma hierarquia padronizada composta pel
 
 
 
- 🌐 **Cadastro Multifinalitário**
+ 🌐 **Cadastro Multifinalitário** ( Amanda vai enviar novo mapa )
  
  **°** O Cadastro Multifinalitário é uma área de trabalho ampliada, que utiliza dados básicos da cidade;
  
@@ -188,47 +188,48 @@ As Áreas de Trabalho servem para organizar os dados de forma separada, de acord
 
 **6.0** 📥 **Importador de Dados:**
 
-O Importador de Dados é uma ferramenta que permite carregar dados externos para dentro do GEO360 PRO, organizando essas informações em camadas no mapa.
+O Importador de Dados é uma ferramenta que permite carregar informações externas para dentro do GEO360 PRO, organizando os dados importados como camadas no mapa.
+Vale ressaltar que o sistema aceita arquivos no formato GeoJSON.
+
 Por meio dele, é possível importar diferentes tipos de dados, como:
 
- **Dados vetoriais**: mapas de ruas, lotes, bairros, pontos, linhas e polígonos (formatos como SHP, GeoJSON, DXF, entre outros);
- 
+ **Dados vetoriais**: mapas de ruas, lotes, bairros, pontos, linhas e polígonos;
+
+ Processo inicial de importação de um arquivo vetorial a partir do computador do usuário: 
 ![importador_dados](https://github.com/user-attachments/assets/f5ca854a-eb81-4b8b-88a9-7946a93d822f)
 
- **Figura 12 - Importador de Dados Vetoriais - Envio de Arquivo Local**
+ Figura 12 - Importador de Dados Vetoriais - Envio de Arquivo Local
 
- ↑ Processo inicial de importação de um arquivo vetorial a partir do computador do usuário.
-
+ 
+Andamento e validação da importação de dados vetoriais:
 ![importador_dados_1](https://github.com/user-attachments/assets/c8d22dc8-c574-4365-b469-c552b0ce1f13)
 
-**Figura 13 - Importador de Dados Vetoriais - Processamento do Arquivo**
+Figura 13 - Importador de Dados Vetoriais - Processamento do Arquivo
 
-↑ Andamento e validação da importação de dados vetoriais.
-
+Resultado da importação, com os dados sendo exibidos no ambiente do mapa:
 ![importador_dados_2](https://github.com/user-attachments/assets/95ba48fc-0f86-4021-886c-bcb63fdc067a)
 
-**Figura 14 - Importador de Dados Vetoriais - Visualização no Mapa**
+Figura 14 - Importador de Dados Vetoriais - Visualização no Mapa
 
-↑ Resultado da importação, com os dados sendo exibidos no ambiente do mapa.
 
+Confirmação de envio do arquivo e status final da operação.:
 ![importador_dados_3](https://github.com/user-attachments/assets/7654857f-f736-436d-bc22-53dd2e32b55f)
 
-**Figura 15 - Importador de Dados Vetoriais - Arquivo Enviado com Sucesso**
-
-↑ Confirmação de envio do arquivo e status final da operação.
-
-![importador_dados_4](https://github.com/user-attachments/assets/8ed40f65-cc17-4c3a-b8a1-0a38a93b9d50)
-
- **Dados raster**: imagens como ortofotos, mapas escaneados, imagens de satélite e outros arquivos georreferenciados (formatos como GeoTIFF, JPEG, PNG) - <span style="color:red">Em desenvolvimento</span>;
-
- **Tabelas**: planilhas com informações associadas aos dados geográficos, como cadastro de imóveis, escolas, postos de saúde, ocorrências, etc. (formatos CSV, Excel) - <span style="color:red">Em desenvolvimento</span>;
+Figura 15 - Importador de Dados Vetoriais - Arquivo Enviado com Sucesso
 
 
-Apresentamos abaixo o mapa conceitual que descreve o processo de importação de dados vetoriais.
+![importador_dados_4](https://github.com/user-attachments/assets/8ed40f65-cc17-4c3a-b8a1-0a38a93b9d50) 
+( colocar legenda )
 
-![importador_dados_5](https://github.com/user-attachments/assets/46fac30a-8909-405b-9f0a-30b9b63a435a)
+ **Dados raster**: imagens como ortofotos, mapas escaneados, imagens de satélite e outros arquivos georreferenciados - Em desenvolvimento;
 
-💡 Vale ressaltar que a importação de dados é permitida no formato **GeoJSON**.
+ **Tabelas**: planilhas com informações associadas aos dados geográficos, como cadastro de imóveis, escolas, postos de saúde, ocorrências, etc. - Em desenvolvimento.
+
+
+Apresentamos a seguir o mapa conceitual que descreve de forma visual e estruturada o processo de importação de dados vetoriais no GEO360 PRO:
+
+![importador_dados_5](https://github.com/user-attachments/assets/46fac30a-8909-405b-9f0a-30b9b63a435a) ( Amanda vai enviar novo mapa )
+
 
 **7.0** 🗺️ **Mapas:** 
 
@@ -238,7 +239,7 @@ O Mapa é a tela principal do GEO360 PRO, onde estão organizados e exibidos os 
 
 ↑ Apresenta os mapas criados e disponíveis para acesso dentro da organização.
  
- **7.1** 🔧 **Funcionalidades:**
+ **7.1** 🔧 **Funcionalidades:** ( Amanda vai eviar novo mapa )
  
 ![novo_mapa](https://github.com/user-attachments/assets/6567a206-3cd4-4108-b898-d4419cbac087)
 
@@ -258,28 +259,100 @@ O Mapa é a tela principal do GEO360 PRO, onde estão organizados e exibidos os 
 
  **Última modificação**: Data, hora e usuário que realizou a última alteração.
 
+ Etapas para iniciar e configurar um novo mapa temático no sistema:
+
 ![informacoes_mapa](https://github.com/user-attachments/assets/5f10b821-c3c9-4e9b-ba56-a65535c3ae15)
 
-**Figura 17 - Processo de Criação de um Novo Mapa**
-
-↑ Etapas para iniciar e configurar um novo mapa temático no sistema.
+Figura 17 - Processo de Criação de um Novo Mapa
 
 
+Interface utilizada para incluir camadas no mapa ativo:
 ![informacoes_mapa_1](https://github.com/user-attachments/assets/7376e7d3-7ec8-4d49-9cd4-d7020ff14efa)
 
-**Figura 18 - Adição de Camadas ao Mapa**
+Figura 18 - Adição de Camadas ao Mapa
 
-↑ Interface utilizada para incluir camadas no mapa ativo. 
-
+Permite importar camadas de outros mapas previamente criados:
 ![informacoes_mapa_2](https://github.com/user-attachments/assets/21d0fddf-1bf8-40fd-b547-d23d27637078)
 
-**Figura 19 - Seleção de Camadas a partir da listagem de Mapas existentes**
-
-↑ Permite importar camadas de outros mapas previamente criados.
+Figura 19 - Seleção de Camadas a partir da listagem de Mapas existentes
 
 
-![informacoes_mapa_3](https://github.com/user-attachments/assets/3baa68a2-0af3-47d6-be1a-6fd6cf9bedb8)
+![informacoes_mapa_3](https://github.com/user-attachments/assets/3baa68a2-0af3-47d6-be1a-6fd6cf9bedb8) ( criar legenda )
 
+
+**9.0** 📌 **Camadas**
+
+As Camadas são conjuntos de dados geográficos organizados visualmente no mapa. Cada camada representa um tipo de informação, como ruas, lotes, bairros, escolas, áreas de risco, meio ambiente, entre outros.
+
+No mapa, as camadas se sobrepõem como folhas transparentes, permitindo visualizar, analisar e cruzar diferentes informações espaciais.
+
+**9.1 Ordem das Camadas:** -
+
+No GEO360 PRO, é importante compreender que a ordem em que as camadas são adicionadas ao mapa impacta diretamente na forma como elas são apresentadas e visualizadas.
+
+Por padrão, as camadas adicionadas primeiro são posicionadas sobre as camadas mais recentes. Isso significa que, visualmente, as primeiras camadas podem ocultar as que foram inseridas depois, dependendo do tipo e da extensão da geometria envolvida.
+
+🧭 Exemplo prático:
+Se você adicionar as camadas na seguinte ordem:
+
+Bairros
+
+Quadras
+
+A visualização no mapa será:
+
+**Bairros: camada superior**
+
+**Quadras: camada inferior**
+
+Controle de sobreposição e hierarquia de camadas no ambiente de visualização:
+![Visualização do Mapa](./ordem_camadas.gif)
+
+Figura 20 - Organização e Ordenamento das Camadas
+
+ **Dica:** Você pode **reorganizar a ordem das camadas manualmente**, usando o painel lateral do mapa. Assim, é possível priorizar visualmente as informações mais relevantes para a sua análise ou apresentação. ( colocar imagem com legenda )
+
+**9.2** ⚙️ **Funcionalidades das Camadas:**
+
+ **Visualizar:** Ativar ou ocultar as camadas no mapa de acordo com a necessidade.
+
+ **Consultar:** Clicar sobre os elementos para obter informações detalhadas dos dados.
+
+ **Editar:** Adicionar, modificar ou excluir geometrias (pontos, linhas, polígonos) e atributos (informações descritivas).
+
+ **Personalizar:** Alterar cores, simbologia e transparência para facilitar a leitura visual.
+
+ **Relacionar:** Combinar informações entre diferentes camadas para análises mais precisas.
+
+ **Filtrar:** Aplicar filtros para exibir apenas dados de interesse.
+
+![funcionalidades_atualizado](https://github.com/user-attachments/assets/70ce88a2-312a-4820-8a91-bdada4f4142b)
+
+
+**9.3** 🏷️ **Atributos da Camada:**
+
+As camadas são fundamentais para organizar as informações geográficas, facilitando a gestão dos dados, as análises espaciais e a tomada de decisões.
+
+**Título:** Nome que identifica a camada exibida no mapa.  
+**Exemplos:** `Lotes Urbanos`, `Limite de Bairros`, `Áreas Verdes`, `Rede de Drenagem`.
+
+**Coluna Relacionada**:Campo da tabela geoespacial que serve como chave de relacionamento com outras tabelas ou sistemas.  
+**Exemplo:** `id_lote`, `cod_bairro`, `id_area_verde`.
+
+**Tipo**:Formato geométrico da camada, definindo como os dados são representados no mapa.  
+**Exemplos:** `Polígono`, `Linha`, `Ponto`.
+
+**Criado por:** Nome do usuário que realizou o cadastro inicial da camada no sistema.  
+**Exemplo:** `admin_gabriel`.
+
+**Última Atualização:** Data, hora e usuário responsáveis pela última modificação da camada (geometria ou atributos).  
+**Exemplo:** Atualizado por `topografia_luana` em `04/06/2025 às 10:15`.
+
+ Visualização tabular dos dados descritivos associados às feições espaciais da camada:
+
+![atributos_camadas](https://github.com/user-attachments/assets/c7499124-0f4e-4636-967c-cb455acf2e6a)
+
+Figura 21 - Tabela de Atributos das Camadas
 
 **8.0** 🔗 Conexões ( confirmar com a Ana o texto )
 
@@ -306,85 +379,6 @@ Garantir que as informações estejam sempre atualizadas sem precisar importar a
 
 Facilitar o uso de camadas dinâmicas, que são atualizadas na origem.
 
-
-**9.0** 📌 **Camadas**
-
-As Camadas são conjuntos de dados geográficos organizados visualmente no mapa. Cada camada representa um tipo de informação, como ruas, lotes, bairros, escolas, áreas de risco, meio ambiente, entre outros.
-
-No mapa, as camadas se sobrepõem como folhas transparentes, permitindo visualizar, analisar e cruzar diferentes informações espaciais.
-
-**9.1 Ordem das Camadas:** -
-
-No GEO360 PRO, a ordem em que as camadas são adicionadas afeta diretamente como elas aparecem visualmente no mapa. As primeiras camadas adicionadas ficam por cima, enquanto as mais recentes são posicionadas abaixo.
-
-
-📌 Exemplo prático:
-Imagine que você adicionou as seguintes camadas na seguinte ordem:
-
-**Bairros
-  Quadras**
-
-Nesse caso, a visualização será:
-
-Bairros por cima (camada superior);
-
-Quadras no meio (camada inferior).
-
-![Visualização do Mapa](./ordem_camadas.gif)
-
-
-**Figura 20 - Organização e Ordenamento das Camadas**
-
-↑ Controle de sobreposição e hierarquia de camadas no ambiente de visualização. 
-
-
-Observe que, embora a camada **"Quadra"** tenha sido adicionada após a camada **"Bairro"**, ela permanece em um nível inferior na hierarquia de visualização.
-Esse comportamento é intencional e necessário para preservar a legibilidade cartográfica, assegurando que camadas com menor granularidade espacial (como bairros) se sobreponham às camadas com maior detalhamento (como as quadras).
-
-💡 **Dica:** Você pode **reorganizar a ordem das camadas manualmente**, usando o painel lateral do mapa. Assim, é possível priorizar visualmente as informações mais relevantes para a sua análise ou apresentação.
-
-**9.2** ⚙️ **Funcionalidades das Camadas:**
-
- **Visualizar:** Ativar ou ocultar as camadas no mapa de acordo com a necessidade.
-
- **Consultar:** Clicar sobre os elementos para obter informações detalhadas dos dados.
-
- **Editar:** Adicionar, modificar ou excluir geometrias (pontos, linhas, polígonos) e atributos (informações descritivas).
-
- **Personalizar:** Alterar cores, simbologia e transparência para facilitar a leitura visual.
-
- **Relacionar:** Combinar informações entre diferentes camadas para análises mais precisas.
-
- **Filtrar:** Aplicar filtros para exibir apenas dados de interesse.
-
-![funcionalidades_atualizado](https://github.com/user-attachments/assets/70ce88a2-312a-4820-8a91-bdada4f4142b)
-
-
-**9.3** 🏷️ **Atributos da Camada:**
-
-**Título:** Nome que identifica a camada exibida no mapa.  
-**Exemplos:** `Lotes Urbanos`, `Limite de Bairros`, `Áreas Verdes`, `Rede de Drenagem`.
-
-**Coluna Relacionada**:Campo da tabela geoespacial que serve como chave de relacionamento com outras tabelas ou sistemas.  
-**Exemplo:** `id_lote`, `cod_bairro`, `id_area_verde`.
-
-**Tipo**:Formato geométrico da camada, definindo como os dados são representados no mapa.  
-**Exemplos:** `Polígono`, `Linha`, `Ponto`.
-
-**Criado por:** Nome do usuário que realizou o cadastro inicial da camada no sistema.  
-**Exemplo:** `admin_gabriel` em `12/05/2024 às 14:32`.
-
-**Última Atualização:** Data, hora e usuário responsáveis pela última modificação da camada (geometria ou atributos).  
-**Exemplo:** Atualizado por `topografia_luana` em `04/06/2025 às 10:15`.
-
-![atributos_camadas](https://github.com/user-attachments/assets/c7499124-0f4e-4636-967c-cb455acf2e6a)
-
-**Figura 21 - Tabela de Atributos das Camadas**
-
-↑ Visualização tabular dos dados descritivos associados às feições espaciais da camada.
-
-
-💡 As camadas são fundamentais para organizar as informações geográficas, facilitando a gestão dos dados, as análises espaciais e a tomada de decisões.
 
 **10.0** 🎨 **Estilo:**
 
