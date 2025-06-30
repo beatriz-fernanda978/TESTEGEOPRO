@@ -240,8 +240,9 @@ Apresentamos a seguir o mapa conceitual que descreve de forma visual e estrutura
 O Mapa é a tela principal do GEO360 PRO, onde estão organizados e exibidos os dados geográficos de forma interativa. Ele permite visualizar, consultar, analisar e editar informações espaciais, além de gerenciar dados e camadas.
  
  **7.1** 🔧 **Funcionalidades:**
- 
-![funcionalidades_ultima](https://github.com/user-attachments/assets/8e0e20d3-3ff3-422c-88f3-bb4998335d20)
+
+ ![funcionalidades_mapa_ultima](https://github.com/user-attachments/assets/055f978c-dd74-45e2-961f-213ba665ed18)
+
 
 
 **7.2** 📋 **Informações do Mapa:**
