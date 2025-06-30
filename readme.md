@@ -1,5 +1,5 @@
 
-![GEOPRO_](https://github.com/user-attachments/assets/da83b6b6-ca07-499d-a955-1a3f67ee39c6)
+![logo_atualizada](https://github.com/user-attachments/assets/ef29156f-d4fa-4be5-a7a0-247728b33289)
 
 **Bem-vindo ao GEO360 PRO**
 
@@ -48,7 +48,7 @@ Após a criação, a organização segue uma hierarquia padronizada composta pel
 
 
 
- 🌐 **Cadastro Multifinalitário** ( Amanda vai enviar novo mapa )
+ 🌐 **Cadastro Multifinalitário** 
  
  **°** O Cadastro Multifinalitário é uma área de trabalho ampliada, que utiliza dados básicos da cidade;
  
@@ -56,7 +56,7 @@ Após a criação, a organização segue uma hierarquia padronizada composta pel
  
  **°** Sua estrutura é flexível e não depende de um modelo específico, o que permite atender múltiplos contextos de gestão municipal.
 
- ![cadastro_multinalitario_atualizado](https://github.com/user-attachments/assets/a4f83e44-b88f-46b9-a441-ed3dc20c6dba)
+![CADASTRO_MULTIFINALITARIO_ULTIMO](https://github.com/user-attachments/assets/f2ae889f-3354-4eac-9549-6073bce79f5e)
  
 
 **1.0 🔐 Acesso ao GEO360 PRO**
@@ -156,7 +156,8 @@ Figura 8- Página de grupos e criação de novos
 
 Apresenta os grupos ativos e suas respectivas permissões dentro da organização:
 
-![membros_3](https://github.com/user-attachments/assets/299a23cb-5373-4651-aa31-8e3e93eab18f)
+![ORGANIZAÇÃO_ATUALIZADA](https://github.com/user-attachments/assets/027c171b-b52d-4834-91a6-3b91c15c3189)
+
 
 Figura 9 - Listagem de grupos disponíveis na organização
 
@@ -179,11 +180,12 @@ Figura 11 - Funcionalidades principais do sistema
 
 NOVA ABA ( MENU > CONTEÚDO )
 
-**5.0** 🗺️ **Nova Área de Trabalho** ( Amanda vai enviar novo mapa )
+**5.0** 🗺️ **Nova Área de Trabalho** 
 
 As Áreas de Trabalho servem para organizar os dados de forma separada, de acordo com cada setor e suas necessidades. Também são usadas para controlar quem pode acessar ou editar esses dados. Por exemplo, é possível criar uma Área de Trabalho para cada secretaria da prefeitura, onde cada setor terá seu próprio ambiente e será responsável por suas informações. A criação das novas áreas segue o mesmo processo das já existentes. Abaixo segue uma descrição estruturada do fluxo do processo:
 
-![area_trabalho_](https://github.com/user-attachments/assets/120c1862-dd4b-4fe9-bf1a-86b449320519)
+![nova_area_trabalho_ultima](https://github.com/user-attachments/assets/3fa9b50e-ae84-4603-9cc3-5aef41d6a0b7)
+
 
 
 **6.0** 📥 **Importador de Dados:**
@@ -229,17 +231,18 @@ Figura 15 - Importador de Dados Vetoriais - Arquivo Enviado com Sucesso
 
 Apresentamos a seguir o mapa conceitual que descreve de forma visual e estruturada o processo de importação de dados vetoriais no GEO360 PRO:
 
-( Amanda vai enviar novo mapa )
-![importador_dados_5](https://github.com/user-attachments/assets/46fac30a-8909-405b-9f0a-30b9b63a435a) 
+
+![IMPORTADOR_VETOR](https://github.com/user-attachments/assets/63da5f6f-f9d6-443d-a64d-1eaddd4e8d9b)
 
 
 **7.0** 🗺️ **Mapas:** 
 
 O Mapa é a tela principal do GEO360 PRO, onde estão organizados e exibidos os dados geográficos de forma interativa. Ele permite visualizar, consultar, analisar e editar informações espaciais, além de gerenciar dados e camadas.
  
- **7.1** 🔧 **Funcionalidades:** ( Amanda vai enviar novo mapa )
+ **7.1** 🔧 **Funcionalidades:**
  
-![novo_mapa](https://github.com/user-attachments/assets/6567a206-3cd4-4108-b898-d4419cbac087)
+![funcionalidades_ultima](https://github.com/user-attachments/assets/8e0e20d3-3ff3-422c-88f3-bb4998335d20)
+
 
 **7.2** 📋 **Informações do Mapa:**
 
@@ -330,8 +333,8 @@ Figura 20 - Organização e Ordenamento das Camadas
 
  **Filtrar:** Aplicar filtros para exibir apenas dados de interesse.
 
-( Amanda vai enviar novo mapa )
-![funcionalidades_atualizado](https://github.com/user-attachments/assets/70ce88a2-312a-4820-8a91-bdada4f4142b)
+![funcionalidades_ultima](https://github.com/user-attachments/assets/087ef462-21f6-4445-8c5c-428f6a9bb660)
+
 
 
 **9.3** 🏷️ **Atributos da Camada:**
